@@ -1,120 +1,54 @@
 {
   "brand": "Pavora",
-  "generatedAt": "2026-08-12T23:08:09.997Z",
+  "generatedAt": "2026-08-12T23:24:03.255Z",
   "collections": [
     {
       "handle": "grinding",
       "title": "Concrete Grinding & Polishing",
       "bay": "01",
-      "description": "Grind old slabs, polish, expose aggregate, and finish commercial floors."
+      "description": "Walk-behind planetary grinders for commercial slabs."
     },
     {
       "handle": "injection",
       "title": "Concrete Crack Injection",
       "bay": "02",
-      "description": "Epoxy and polyurethane pumps for structural and non-structural crack repair."
-    },
-    {
-      "handle": "leveling",
-      "title": "Polyurethane Concrete Leveling",
-      "bay": "03",
-      "description": "Foam injection rigs that raise sunken slabs through small drilled ports."
+      "description": "Epoxy and polyurethane pumps for structural and leaking cracks."
     },
     {
       "handle": "crack-sealing",
       "title": "Asphalt Crack Sealing",
-      "bay": "04",
-      "description": "Melters, wands, and kettles for parking lots, drives, and commercial asphalt."
-    },
-    {
-      "handle": "sealcoating",
-      "title": "Asphalt Sealcoating",
-      "bay": "05",
-      "description": "Spray and squeegee systems that coat aging asphalt before striping."
-    },
-    {
-      "handle": "thermoplastic",
-      "title": "Thermoplastic Road Marking",
-      "bay": "06",
-      "description": "Durable markings for roads, crosswalks, bike lanes, and parking areas."
-    },
-    {
-      "handle": "marking-removal",
-      "title": "Pavement Marking Removal",
-      "bay": "07",
-      "description": "Grind, water-blast, or shot-erase old lines, arrows, and legends."
-    },
-    {
-      "handle": "dry-ice",
-      "title": "Dry-Ice Blasting",
-      "bay": "08",
-      "description": "Non-abrasive CO₂ cleaning for machinery, electrics, molds, and restoration."
+      "bay": "03",
+      "description": "Hot-melt kettles for parking lots and commercial asphalt."
     },
     {
       "handle": "soda",
-      "title": "Soda Blasting",
-      "bay": "09",
-      "description": "Remove paint, grime, and coatings from buildings, machinery, and vehicles."
+      "title": "Soda & Sand Blasting",
+      "bay": "04",
+      "description": "Portable blast pots and recovery units for paint and coating removal."
     },
     {
       "handle": "laser",
       "title": "Laser Cleaning",
-      "bay": "10",
-      "description": "Fiber laser systems that strip rust, paint, and residue without media waste."
+      "bay": "05",
+      "description": "Handheld fiber laser carts that strip rust and paint without media."
     },
     {
       "handle": "pressure-wash",
       "title": "Commercial Pressure Washing",
-      "bay": "11",
-      "description": "Hot and cold washers for warehouses, garages, docks, and building exteriors."
+      "bay": "06",
+      "description": "Gas-powered cart washers for lots, docks, and building exteriors."
     },
     {
       "handle": "lot-painting",
       "title": "Parking Lot Painting",
-      "bay": "12",
-      "description": "Walk-behind and ride-on stripers, stencils, and airless lot painters."
-    },
-    {
-      "handle": "drone",
-      "title": "Drone Roof Inspections",
-      "bay": "13",
-      "description": "RTK drones and reporting stations for commercial roof photography."
-    },
-    {
-      "handle": "thermal",
-      "title": "Thermal Roof Leak Detection",
-      "bay": "14",
-      "description": "Infrared arrays that find moisture without tearing the roof apart."
-    },
-    {
-      "handle": "expansion-joints",
-      "title": "Expansion-Joint Replacement",
-      "bay": "15",
-      "description": "Saws, fill pumps, and kits for garage and structural joint work."
+      "bay": "07",
+      "description": "Walk-behind cold-paint stripers for stalls, arrows, and hash."
     },
     {
       "handle": "caulking",
-      "title": "Commercial Caulking & Joint Sealing",
-      "bay": "16",
-      "description": "Bulk guns and facade pumps for windows, joints, and penetrations."
-    },
-    {
-      "handle": "garage",
-      "title": "Parking Garage Restoration",
-      "bay": "17",
-      "description": "Combined concrete repair, injection, waterproofing, striping, and coatings."
-    },
-    {
-      "handle": "parts",
-      "title": "Consumables & Wear Parts",
-      "bay": "18",
-      "description": "Cups, media, beads, foam, paint, tips, and filters stocked for the yard."
-    },
-    {
-      "handle": "packages",
-      "title": "Crew Packages",
-      "bay": "19",
-      "description": "Turnkey invoices for a first crew or a second truck."
+      "title": "Commercial Caulking",
+      "bay": "08",
+      "description": "Dual-cartridge epoxy and caulk guns for joints and structural adhesives."
     }
   ],
   "products": [
@@ -122,7 +56,7 @@
       "id": "pv-001",
       "handle": "pavora-mill-27-planetary-grinder",
       "title": "Pavora Mill-27 Planetary Grinder",
-      "description": "A 27-inch planetary grinder for commercial floors that have to look finished, not just flat. Built for grind-and-seal, polish, and aggregate exposure.",
+      "description": "A walk-behind planetary floor grinder for commercial slabs. This is the machine in the photo: yellow chassis, four-head deck, operator handles.",
       "collection": "grinding",
       "price": 12800,
       "compareAtPrice": null,
@@ -132,20 +66,18 @@
       "equipmentType": "Planetary floor grinder",
       "tradeTypes": [
         "grinding",
-        "polishing",
-        "expose aggregate"
+        "polishing"
       ],
       "contractorTypes": [
         "concrete contractor",
-        "restoration contractor",
-        "parking garage"
+        "restoration contractor"
       ],
       "useCase": "commercial",
       "warrantyYears": 2,
       "financing": true,
       "quoteOnly": false,
       "inStock": true,
-      "highlight": "Three-head planetary for grind, hone, and polish on warehouse slabs",
+      "highlight": "Four-head planetary for grind, hone, and polish on warehouse slabs",
       "leadTime": "Ships in 5–12 business days",
       "power": "230V 1Ø / 480V 3Ø",
       "dimensions": "27\" working width",
@@ -163,282 +95,51 @@
       ],
       "benefits": [
         "Even scratch pattern",
-        "HEPA vac ports",
+        "Dust skirt",
         "Tool-free head change"
       ],
       "included": [
         "Planetary chassis",
         "Starter diamond set",
-        "Dust skirt",
-        "Transport cart"
+        "Dust skirt"
       ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora planetary floor grinder equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora planetary floor grinder equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
       "featured": true,
       "tags": [
         "grinder",
-        "polish",
-        "concrete",
-        "dust"
+        "planetary",
+        "concrete"
       ],
-      "image": "/media/gear/polisher.jpg",
+      "image": "/media/catalog/grinder.webp",
       "monthly": 356
     },
     {
       "id": "pv-002",
-      "handle": "pavora-dens-7-edge-grinder",
-      "title": "Pavora Dens-7 Edge Grinder",
-      "description": "Compact edge grinder for columns, walls, and landings so the floor does not show a 7-inch unground halo.",
-      "collection": "grinding",
-      "price": 4200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0002",
-      "brand": "Pavora",
-      "equipmentType": "Edge grinder",
-      "tradeTypes": [
-        "grinding",
-        "edge work"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Gets the last 7 inches the planetary cannot reach",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V 15A",
-      "dimensions": "7\" cup, 18\" chassis",
-      "weightLbs": 92,
-      "applications": [
-        "Wall lines",
-        "Columns",
-        "Stair landings"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Low profile",
-        "Vac port",
-        "Variable speed"
-      ],
-      "included": [
-        "Edge grinder",
-        "Two cups",
-        "Vac hose adapter"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora edge grinder equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "edge",
-        "grinder",
-        "concrete"
-      ],
-      "image": "/media/gear/px-grinder.jpg",
-      "monthly": 117
-    },
-    {
-      "id": "pv-003",
-      "handle": "pavora-polish-pro-burnisher",
-      "title": "Pavora Polish-Pro Burnisher",
-      "description": "Commercial burnisher for the last passes after densifier. Built for occupied retail, not a buffer from the janitorial closet.",
-      "collection": "grinding",
-      "price": 8900,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0003",
-      "brand": "Pavora",
-      "equipmentType": "High-speed burnisher",
-      "tradeTypes": [
-        "polishing"
-      ],
-      "contractorTypes": [
-        "concrete contractor",
-        "flooring contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "High-speed polish after densifier for retail and lobby floors",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "230V",
-      "dimensions": "27\" pad",
-      "weightLbs": 210,
-      "applications": [
-        "Final polish",
-        "Maintenance shine",
-        "Retail floors"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Pad pressure control",
-        "Dust containment",
-        "Quiet enough for occupied buildings"
-      ],
-      "included": [
-        "Burnisher",
-        "Starter pads",
-        "Dust skirt"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora high-speed burnisher equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "polish",
-        "burnish",
-        "concrete"
-      ],
-      "image": "/media/gear/px-sparks.jpg",
-      "monthly": 247
-    },
-    {
-      "id": "pv-004",
-      "handle": "pavora-hepa-vac-prop",
-      "title": "Pavora HEPA-Vac Prop",
-      "description": "HEPA extractor sized for planetary and edge grinders. Silica compliance is not optional on commercial floors.",
-      "collection": "grinding",
-      "price": 3400,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0004",
-      "brand": "Pavora",
-      "equipmentType": "HEPA dust extractor",
-      "tradeTypes": [
-        "dust control",
-        "grinding"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Pairs with grinders so silica stays in the bag",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V 20A",
-      "dimensions": "24 × 24 × 48 in",
-      "weightLbs": 118,
-      "applications": [
-        "Grinder extraction",
-        "Saw cutting",
-        "Joint work"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "HEPA filtration",
-        "Auto-clean pulse",
-        "Long hose"
-      ],
-      "included": [
-        "Extractor",
-        "Hose",
-        "Wand",
-        "Filter set"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora hepa dust extractor equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "hepa",
-        "silica",
-        "vac"
-      ],
-      "image": "/media/gear/polisher.jpg",
-      "monthly": 94
-    },
-    {
-      "id": "pv-005",
       "handle": "pavora-injecta-ep-pump",
       "title": "Pavora Injecta-EP Epoxy Pump",
-      "description": "Two-component epoxy injection pump for structural crack repair. Metered so the resin actually fills the crack instead of decorating the face.",
+      "description": "A high-pressure injection grouting pump with hopper, gauge, and stand. Used to push epoxy into structural cracks — not a caulk gun.",
       "collection": "injection",
       "price": 5600,
       "compareAtPrice": null,
       "currency": "USD",
-      "sku": "PV-0005",
+      "sku": "PV-0002",
       "brand": "Pavora",
       "equipmentType": "Epoxy injection pump",
       "tradeTypes": [
@@ -447,17 +148,16 @@
       ],
       "contractorTypes": [
         "concrete contractor",
-        "restoration contractor",
-        "parking garage"
+        "restoration contractor"
       ],
       "useCase": "commercial",
       "warrantyYears": 2,
       "financing": true,
       "quoteOnly": false,
       "inStock": true,
-      "highlight": "Metered epoxy for structural cracks in slabs, walls, and decks",
+      "highlight": "High-pressure grouting pump for structural cracks in slabs, walls, and decks",
       "leadTime": "Ships in 5–12 business days",
-      "power": "120V",
+      "power": "120V drill drive",
       "dimensions": "18 × 14 × 28 in",
       "weightLbs": 64,
       "applications": [
@@ -471,53 +171,53 @@
         "Parking garage restorers"
       ],
       "benefits": [
-        "Ratio control",
-        "Low-pressure start",
+        "Pressure gauge",
+        "Portable stand",
         "Flush kit included"
       ],
       "included": [
         "Pump",
+        "Hopper",
         "Hoses",
-        "Packers starter",
-        "Flush kit"
+        "Packers starter"
       ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora epoxy injection pump equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora epoxy injection pump equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
       "featured": true,
       "tags": [
         "epoxy",
         "injection",
-        "crack"
+        "pump"
       ],
-      "image": "/media/gear/us-tools.jpg",
+      "image": "/media/catalog/pump.webp",
       "monthly": 156
     },
     {
-      "id": "pv-006",
+      "id": "pv-003",
       "handle": "pavora-injecta-pu-pump",
       "title": "Pavora Injecta-PU Poly Pump",
-      "description": "Polyurethane injection pump for non-structural leaks. Stops water in parking decks and foundation walls without tearing the slab open.",
+      "description": "Polyurethane injection pump kit: pump body, hopper, hose, wand, and case. Stops water in parking decks and foundation walls.",
       "collection": "injection",
       "price": 4800,
       "compareAtPrice": null,
       "currency": "USD",
-      "sku": "PV-0006",
+      "sku": "PV-0003",
       "brand": "Pavora",
       "equipmentType": "Polyurethane injection pump",
       "tradeTypes": [
@@ -526,18 +226,17 @@
       ],
       "contractorTypes": [
         "concrete contractor",
-        "restoration contractor",
-        "parking garage"
+        "restoration contractor"
       ],
       "useCase": "commercial",
       "warrantyYears": 2,
       "financing": true,
       "quoteOnly": false,
       "inStock": true,
-      "highlight": "Water-stop polyurethane for leaking cracks and joints",
+      "highlight": "Water-stop polyurethane kit with hose, wand, and hard case",
       "leadTime": "Ships in 5–12 business days",
-      "power": "120V",
-      "dimensions": "16 × 12 × 24 in",
+      "power": "120V drill drive",
+      "dimensions": "Kit case 22 in",
       "weightLbs": 48,
       "applications": [
         "Leaking cracks",
@@ -550,438 +249,56 @@
         "Parking garage restorers"
       ],
       "benefits": [
-        "Moisture-tolerant resins",
-        "Portable",
-        "Easy flush"
+        "Full kit in case",
+        "Pressure gauge",
+        "Injection wand"
       ],
       "included": [
         "Pump",
+        "Hopper",
+        "Hose",
         "Wand",
-        "Packers",
-        "Resin starter"
+        "Hard case"
       ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora polyurethane injection pump equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora polyurethane injection pump equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
       "featured": false,
       "tags": [
         "polyurethane",
-        "leak",
-        "injection"
+        "injection",
+        "leak"
       ],
-      "image": "/media/gear/px-plant.jpg",
+      "image": "/media/catalog/pump2.webp",
       "monthly": 133
     },
     {
-      "id": "pv-007",
-      "handle": "pavora-port-pack-crack-kit",
-      "title": "Pavora Port-Pack Crack Kit",
-      "description": "Starter packer and port kit so the pump is not sitting idle while you wait on hardware.",
-      "collection": "injection",
-      "price": 890,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0007",
-      "brand": "Pavora",
-      "equipmentType": "Injection accessory kit",
-      "tradeTypes": [
-        "crack injection"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Packers, ports, and surface seal for a first injection job",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Kit case 22 in",
-      "weightLbs": 18,
-      "applications": [
-        "First jobs",
-        "Punch-list cracks",
-        "Training"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Assorted packers",
-        "Surface seal",
-        "Labeled case"
-      ],
-      "included": [
-        "Packers",
-        "Surface seal",
-        "Ports",
-        "Case"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora injection accessory kit equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "packers",
-        "ports",
-        "kit"
-      ],
-      "image": "/media/gear/px-cnc.jpg",
-      "monthly": 25
-    },
-    {
-      "id": "pv-008",
-      "handle": "pavora-dual-head-injection-rig",
-      "title": "Pavora Dual-Head Injection Rig",
-      "description": "Dual-head cart so a garage crew can inject structural epoxy and water-stop PU without swapping machines mid-bay.",
-      "collection": "injection",
-      "price": 11200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0008",
-      "brand": "Pavora",
-      "equipmentType": "Dual injection cart",
-      "tradeTypes": [
-        "crack injection",
-        "garage restoration"
-      ],
-      "contractorTypes": [
-        "restoration contractor",
-        "parking garage"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Epoxy and PU on one cart for garage restoration crews",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V dual",
-      "dimensions": "Cart 36 × 22 × 42 in",
-      "weightLbs": 186,
-      "applications": [
-        "Mixed crack programs",
-        "Garage soffits",
-        "Plaza decks"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Two chemistries, one trip",
-        "Hose reels",
-        "Spill tray"
-      ],
-      "included": [
-        "Cart",
-        "EP pump",
-        "PU pump",
-        "Reels"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora dual injection cart equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "dual",
-        "injection",
-        "garage"
-      ],
-      "image": "/media/gear/us-tools.jpg",
-      "monthly": 311
-    },
-    {
-      "id": "pv-009",
-      "handle": "pavora-liftfoam-200",
-      "title": "Pavora Liftfoam-200 Slab Rig",
-      "description": "Polyurethane leveling rig that raises sunken slabs through dime-size holes. Faster than mudjacking and cleaner on occupied sites.",
-      "collection": "leveling",
-      "price": 18900,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0009",
-      "brand": "Pavora",
-      "equipmentType": "Polyurethane slab-jacking rig",
-      "tradeTypes": [
-        "slab leveling",
-        "foam injection"
-      ],
-      "contractorTypes": [
-        "concrete contractor",
-        "paving contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Drill small ports and raise sunken slabs with expanding foam",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "240V + onboard compressor",
-      "dimensions": "Trailer 8 × 5 ft",
-      "weightLbs": 1420,
-      "applications": [
-        "Sunken sidewalks",
-        "Warehouse slabs",
-        "Pool decks",
-        "Approach slabs"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Municipal crews",
-        "Property managers"
-      ],
-      "benefits": [
-        "Small ports",
-        "Controlled lift",
-        "Fast cure"
-      ],
-      "included": [
-        "Foam rig",
-        "Guns",
-        "Hoses",
-        "Drill template"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora polyurethane slab-jacking rig equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "foam",
-        "leveling",
-        "slab jacking"
-      ],
-      "image": "/media/gear/us-tools.jpg",
-      "monthly": 525
-    },
-    {
-      "id": "pv-010",
-      "handle": "pavora-probe-drill-cart",
-      "title": "Pavora Probe-Drill Cart",
-      "description": "Port-drill cart that keeps hole spacing honest so foam lift is even instead of a series of volcanoes.",
-      "collection": "leveling",
-      "price": 3200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0010",
-      "brand": "Pavora",
-      "equipmentType": "Port drill cart",
-      "tradeTypes": [
-        "slab leveling"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Repeatable hole pattern for foam ports",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V hammer drill",
-      "dimensions": "Cart 28 × 18 × 40 in",
-      "weightLbs": 74,
-      "applications": [
-        "Port layout",
-        "Sidewalks",
-        "Slabs on grade"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Template jig",
-        "Dust shroud",
-        "Depth stop"
-      ],
-      "included": [
-        "Cart",
-        "Hammer drill",
-        "Bits",
-        "Template"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora port drill cart equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "drill",
-        "ports",
-        "leveling"
-      ],
-      "image": "/media/gear/px-plant.jpg",
-      "monthly": 89
-    },
-    {
-      "id": "pv-011",
-      "handle": "pavora-foam-gun-kit",
-      "title": "Pavora Foam-Gun Kit",
-      "description": "Spare foam guns and mix tips so a two-person lift does not share one trigger.",
-      "collection": "leveling",
-      "price": 1450,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0011",
-      "brand": "Pavora",
-      "equipmentType": "Injection gun kit",
-      "tradeTypes": [
-        "slab leveling"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Spare guns and mix tips for a second operator",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Case 20 in",
-      "weightLbs": 12,
-      "applications": [
-        "Second gun",
-        "Remote pours"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Quick-connect",
-        "Spare tips",
-        "Flush solvent"
-      ],
-      "included": [
-        "Two guns",
-        "Tips",
-        "Flush bottle"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora injection gun kit equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "foam",
-        "gun",
-        "tips"
-      ],
-      "image": "/media/gear/px-tools2.jpg",
-      "monthly": 40
-    },
-    {
-      "id": "pv-012",
+      "id": "pv-004",
       "handle": "pavora-melt-120-melter",
       "title": "Pavora Melt-120 Crack Melter",
-      "description": "Diesel-fired crack melter sized for lots that take a full day, not a driveway kettle.",
+      "description": "A walk-behind asphalt crack sealer: heated kettle, insulated hose, and applicator wand. The machine in the photo is the listing.",
       "collection": "crack-sealing",
       "price": 9800,
       "compareAtPrice": null,
       "currency": "USD",
-      "sku": "PV-0012",
+      "sku": "PV-0004",
       "brand": "Pavora",
-      "equipmentType": "Asphalt crack melter",
+      "equipmentType": "Asphalt crack sealer",
       "tradeTypes": [
         "crack sealing",
         "asphalt"
@@ -995,11 +312,11 @@
       "financing": true,
       "quoteOnly": false,
       "inStock": true,
-      "highlight": "120-gallon melter for parking-lot and commercial crack programs",
+      "highlight": "Walk-behind hot-melt kettle for parking-lot crack programs",
       "leadTime": "Ships in 5–12 business days",
-      "power": "Diesel burner",
-      "dimensions": "Trailer 10 ft",
-      "weightLbs": 1680,
+      "power": "Gasoline engine + burner",
+      "dimensions": "Walk-behind 48 in",
+      "weightLbs": 420,
       "applications": [
         "Parking lots",
         "Drives",
@@ -1011,1124 +328,57 @@
         "Municipal crews"
       ],
       "benefits": [
-        "Even melt",
-        "Agitator",
-        "Hose reel"
+        "Heated hose",
+        "Agitated kettle",
+        "Walk-behind"
       ],
       "included": [
-        "Melter",
-        "Wand",
-        "Hose",
-        "Starter sealant"
+        "Kettle",
+        "Insulated hose",
+        "Wand"
       ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora asphalt crack melter equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora asphalt crack sealer equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
       "featured": true,
       "tags": [
         "melter",
-        "crack",
-        "asphalt"
-      ],
-      "image": "/media/gear/px-spray.jpg",
-      "monthly": 272
-    },
-    {
-      "id": "pv-013",
-      "handle": "pavora-wand-pro-applicator",
-      "title": "Pavora Wand-Pro Applicator",
-      "description": "Heated applicator wand for overband or flush-fill crack sealing on commercial asphalt.",
-      "collection": "crack-sealing",
-      "price": 2100,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0013",
-      "brand": "Pavora",
-      "equipmentType": "Sealant wand",
-      "tradeTypes": [
-        "crack sealing"
-      ],
-      "contractorTypes": [
-        "paving contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Heated wand with shoe options for overband or flush fill",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Heated from kettle",
-      "dimensions": "Wand 6 ft",
-      "weightLbs": 18,
-      "applications": [
-        "Overband",
-        "Flush fill",
-        "Detail cracks"
-      ],
-      "intendedUsers": [
-        "Paving contractors",
-        "Property managers",
-        "Municipal crews"
-      ],
-      "benefits": [
-        "Shoe swap",
-        "Heat hold",
-        "Trigger lock"
-      ],
-      "included": [
-        "Wand",
-        "Two shoes",
-        "Scraper"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora sealant wand equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "wand",
-        "overband",
-        "asphalt"
-      ],
-      "image": "/media/gear/px-plant.jpg",
-      "monthly": 58
-    },
-    {
-      "id": "pv-014",
-      "handle": "pavora-kettle-40-trailer",
-      "title": "Pavora Kettle-40 Trailer",
-      "description": "Towable 40-series kettle for municipal crack routes and commercial lots. Quote includes freight and burner commissioning.",
-      "collection": "crack-sealing",
-      "price": 16400,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0014",
-      "brand": "Pavora",
-      "equipmentType": "Crack-seal trailer",
-      "tradeTypes": [
-        "crack sealing",
-        "municipal"
-      ],
-      "contractorTypes": [
-        "paving contractor",
-        "municipal"
-      ],
-      "useCase": "both",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Ready-to-tow kettle for municipal and HOA routes",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Diesel",
-      "dimensions": "Trailer 12 ft",
-      "weightLbs": 2100,
-      "applications": [
-        "City streets",
-        "HOA roads",
-        "Lots"
-      ],
-      "intendedUsers": [
-        "Paving contractors",
-        "Property managers",
-        "Municipal crews"
-      ],
-      "benefits": [
-        "Tow-ready",
-        "Arrow board mount",
-        "Tool box"
-      ],
-      "included": [
-        "Trailer kettle",
-        "Wand",
-        "Cone rack"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora crack-seal trailer equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "trailer",
         "kettle",
-        "municipal"
-      ],
-      "image": "/media/gear/px-spray2.jpg",
-      "monthly": 456
-    },
-    {
-      "id": "pv-015",
-      "handle": "pavora-coat-spray-300",
-      "title": "Pavora Coat-Spray 300",
-      "description": "Sealcoat spray skid that also squeegees. The right add-on before a striping crew hits the lot.",
-      "collection": "sealcoating",
-      "price": 7200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0015",
-      "brand": "Pavora",
-      "equipmentType": "Sealcoat spray system",
-      "tradeTypes": [
-        "sealcoating",
         "asphalt"
       ],
-      "contractorTypes": [
-        "paving contractor",
-        "striping contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Spray or squeegee sealer over aging asphalt before striping",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Honda 13 hp",
-      "dimensions": "Skid 6 × 4 ft",
-      "weightLbs": 640,
-      "applications": [
-        "Parking lots",
-        "Drives",
-        "HOA streets"
-      ],
-      "intendedUsers": [
-        "Paving contractors",
-        "Property managers",
-        "Municipal crews"
-      ],
-      "benefits": [
-        "Spray and squeegee",
-        "Agitated tank",
-        "Hose reel"
-      ],
-      "included": [
-        "Spray skid",
-        "Wands",
-        "Squeegees",
-        "Hose"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora sealcoat spray system equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "sealcoat",
-        "spray",
-        "asphalt"
-      ],
-      "image": "/media/gear/px-spray.jpg",
-      "monthly": 200
-    },
-    {
-      "id": "pv-016",
-      "handle": "pavora-mix-tank-550",
-      "title": "Pavora Mix-Tank 550",
-      "description": "Agitated mix tank for sanded sealcoat so the sand does not settle in the first hour.",
-      "collection": "sealcoating",
-      "price": 5400,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0016",
-      "brand": "Pavora",
-      "equipmentType": "Sealcoat mix tank",
-      "tradeTypes": [
-        "sealcoating"
-      ],
-      "contractorTypes": [
-        "paving contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "550-gallon agitated tank for sanded sealer mixes",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Engine drive",
-      "dimensions": "Tank 8 ft",
-      "weightLbs": 880,
-      "applications": [
-        "Sanded mixes",
-        "Bulk sealer",
-        "Crew staging"
-      ],
-      "intendedUsers": [
-        "Paving contractors",
-        "Property managers",
-        "Municipal crews"
-      ],
-      "benefits": [
-        "Paddle mix",
-        "Baffle",
-        "Clean-out"
-      ],
-      "included": [
-        "Tank",
-        "Paddles",
-        "Outlet kit"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora sealcoat mix tank equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "tank",
-        "mix",
-        "sealcoat"
-      ],
-      "image": "/media/gear/px-spray2.jpg",
-      "monthly": 150
-    },
-    {
-      "id": "pv-017",
-      "handle": "pavora-squeegee-crew-kit",
-      "title": "Pavora Squeegee Crew Kit",
-      "description": "Hand tools for edges and islands the spray wand should not flood.",
-      "collection": "sealcoating",
-      "price": 680,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0017",
-      "brand": "Pavora",
-      "equipmentType": "Hand tool kit",
-      "tradeTypes": [
-        "sealcoating"
-      ],
-      "contractorTypes": [
-        "paving contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Squeegees, brushes, and edging tools for a three-person crew",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Bundle",
-      "weightLbs": 42,
-      "applications": [
-        "Edges",
-        "Islands",
-        "Touch-up"
-      ],
-      "intendedUsers": [
-        "Paving contractors",
-        "Property managers",
-        "Municipal crews"
-      ],
-      "benefits": [
-        "Matched widths",
-        "Replaceable blades"
-      ],
-      "included": [
-        "Squeegees",
-        "Brushes",
-        "Edgers"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora hand tool kit equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "squeegee",
-        "kit"
-      ],
-      "image": "/media/gear/px-wash.jpg",
-      "monthly": 19
-    },
-    {
-      "id": "pv-018",
-      "handle": "pavora-thermark-handliner",
-      "title": "Pavora Thermark Handliner",
-      "description": "Thermoplastic handliner for high-durability road and lot markings that paint will not survive.",
-      "collection": "thermoplastic",
-      "price": 14200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0018",
-      "brand": "Pavora",
-      "equipmentType": "Thermoplastic handliner",
-      "tradeTypes": [
-        "thermoplastic",
-        "road marking"
-      ],
-      "contractorTypes": [
-        "striping contractor",
-        "municipal"
-      ],
-      "useCase": "both",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Push liner for crosswalks, stop bars, and bike lanes",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Propane melt",
-      "dimensions": "Handliner 48 in",
-      "weightLbs": 310,
-      "applications": [
-        "Crosswalks",
-        "Stop bars",
-        "Bike lanes",
-        "Arrows"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Bead drop",
-        "Screed control",
-        "Quick die change"
-      ],
-      "included": [
-        "Handliner",
-        "Dies",
-        "Bead hopper",
-        "Torch"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora thermoplastic handliner equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "thermoplastic",
-        "crosswalk",
-        "bike lane"
-      ],
-      "image": "/media/gear/px-spray.jpg",
-      "monthly": 394
-    },
-    {
-      "id": "pv-019",
-      "handle": "pavora-thermark-ride",
-      "title": "Pavora Thermark Ride",
-      "description": "Ride-on thermoplastic machine for municipal and highway subcontract work. Quoted with freight and commissioning.",
-      "collection": "thermoplastic",
-      "price": 42000,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0019",
-      "brand": "Pavora",
-      "equipmentType": "Ride-on thermoplastic applicator",
-      "tradeTypes": [
-        "thermoplastic",
-        "road marking"
-      ],
-      "contractorTypes": [
-        "striping contractor",
-        "municipal"
-      ],
-      "useCase": "municipal",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Ride-on applicator for long-line and intersection programs",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Diesel + propane",
-      "dimensions": "Ride-on 9 ft",
-      "weightLbs": 4200,
-      "applications": [
-        "Long lines",
-        "Intersections",
-        "Lane lines"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Operator seat",
-        "Bead guns",
-        "Skip-line timer"
-      ],
-      "included": [
-        "Ride-on",
-        "Dies",
-        "Bead system"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora ride-on thermoplastic applicator equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "ride-on",
-        "thermoplastic",
-        "highway"
-      ],
-      "image": "/media/gear/px-wash2.jpg",
-      "monthly": 1167
-    },
-    {
-      "id": "pv-020",
-      "handle": "pavora-bead-drop-hopper",
-      "title": "Pavora Bead-Drop Hopper",
-      "description": "Bead hopper that meters glass beads into hot thermoplastic for night visibility.",
-      "collection": "thermoplastic",
-      "price": 3900,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0020",
-      "brand": "Pavora",
-      "equipmentType": "Glass bead hopper",
-      "tradeTypes": [
-        "thermoplastic",
-        "beads"
-      ],
-      "contractorTypes": [
-        "striping contractor",
-        "municipal"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Retroreflectivity beads metered behind the screed",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None / 12V agitator",
-      "dimensions": "Hopper 24 in",
-      "weightLbs": 86,
-      "applications": [
-        "Night visibility",
-        "DOT specs"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Even drop",
-        "Agitator",
-        "Quick dump"
-      ],
-      "included": [
-        "Hopper",
-        "Gate",
-        "Mount"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora glass bead hopper equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "beads",
-        "retroreflectivity"
-      ],
-      "image": "/media/gear/px-spray2.jpg",
-      "monthly": 108
-    },
-    {
-      "id": "pv-021",
-      "handle": "pavora-stripe-mill-12",
-      "title": "Pavora Stripe-Mill 12",
-      "description": "Walk-behind line mill for removing old paint and thermoplastic without gouging the lot.",
-      "collection": "marking-removal",
-      "price": 8600,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0021",
-      "brand": "Pavora",
-      "equipmentType": "Line removal grinder",
-      "tradeTypes": [
-        "marking removal",
-        "grinding"
-      ],
-      "contractorTypes": [
-        "striping contractor",
-        "paving contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "12-inch mill that erases old parking lines without wrecking the asphalt",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Honda 13 hp",
-      "dimensions": "Walk-behind 36 in",
-      "weightLbs": 268,
-      "applications": [
-        "Parking lines",
-        "Arrows",
-        "Legends"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Depth control",
-        "Vac port",
-        "Narrow drum"
-      ],
-      "included": [
-        "Mill",
-        "Drum",
-        "Vac adapter"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora line removal grinder equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "removal",
-        "grind",
-        "lines"
-      ],
-      "image": "/media/gear/px-sparks.jpg",
-      "monthly": 239
-    },
-    {
-      "id": "pv-022",
-      "handle": "pavora-waterblast-line",
-      "title": "Pavora Waterblast-Line",
-      "description": "Ultra-high-pressure water blaster for marking removal on asphalt that cannot take a deep mill scar.",
-      "collection": "marking-removal",
-      "price": 21500,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0022",
-      "brand": "Pavora",
-      "equipmentType": "Water-blast line remover",
-      "tradeTypes": [
-        "marking removal",
-        "water blasting"
-      ],
-      "contractorTypes": [
-        "striping contractor",
-        "municipal"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "UHP water that lifts markings with less scar than a mill",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Diesel 40 hp",
-      "dimensions": "Trailer 10 ft",
-      "weightLbs": 2800,
-      "applications": [
-        "Highway legends",
-        "Airport marks",
-        "Sensitive asphalt"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Less scar",
-        "Recover water option",
-        "Adjustable pressure"
-      ],
-      "included": [
-        "UHP unit",
-        "Lance",
-        "Hose",
-        "Trailer"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora water-blast line remover equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "waterblast",
-        "removal",
-        "uHP"
-      ],
-      "image": "/media/gear/px-grinder.jpg",
-      "monthly": 597
-    },
-    {
-      "id": "pv-023",
-      "handle": "pavora-shot-erase-cart",
-      "title": "Pavora Shot-Erase Cart",
-      "description": "Shot-blast cart that removes paint on garage decks and warehouse floors with recirculating media.",
-      "collection": "marking-removal",
-      "price": 11200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0023",
-      "brand": "Pavora",
-      "equipmentType": "Shot-blast eraser",
-      "tradeTypes": [
-        "marking removal",
-        "shot blast"
-      ],
-      "contractorTypes": [
-        "striping contractor",
-        "parking garage"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Recirculating shot that dulls and removes paint on decks",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "230V",
-      "dimensions": "Cart 40 in",
-      "weightLbs": 420,
-      "applications": [
-        "Garage decks",
-        "Warehouse floors",
-        "Paint removal"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Media recycle",
-        "Dust sealed",
-        "Edge kit"
-      ],
-      "included": [
-        "Cart",
-        "Shot load",
-        "Dust hose"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora shot-blast eraser equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "shot",
-        "erase",
-        "garage"
-      ],
-      "image": "/media/gear/polisher.jpg",
-      "monthly": 311
-    },
-    {
-      "id": "pv-024",
-      "handle": "pavora-cryo-40-blaster",
-      "title": "Pavora Cryo-40 Dry-Ice Blaster",
-      "description": "Dry-ice blaster for industrial cleaning where sand or soda would damage the substrate or leave grit in a plant.",
-      "collection": "dry-ice",
-      "price": 16800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0024",
-      "brand": "Pavora",
-      "equipmentType": "Dry-ice blaster",
-      "tradeTypes": [
-        "dry-ice blasting",
-        "industrial cleaning"
-      ],
-      "contractorTypes": [
-        "blasting contractor",
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Non-abrasive CO₂ cleaning for machinery, electrics, and molds",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "480V 3Ø + air",
-      "dimensions": "Skid 48 × 28 × 42 in",
-      "weightLbs": 510,
-      "applications": [
-        "Machinery",
-        "Electrical cabinets",
-        "Molds",
-        "Fire restoration"
-      ],
-      "intendedUsers": [
-        "Blasting contractors",
-        "Industrial cleaners",
-        "Restoration crews"
-      ],
-      "benefits": [
-        "No secondary waste",
-        "Non-conductive media",
-        "Variable pellet"
-      ],
-      "included": [
-        "Blaster",
-        "Hoses",
-        "Nozzles",
-        "Pellet hopper"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora dry-ice blaster equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "dry ice",
-        "co2",
-        "non-abrasive"
-      ],
-      "image": "/media/gear/blaster.jpg",
-      "monthly": 467
-    },
-    {
-      "id": "pv-025",
-      "handle": "pavora-cryo-hopper",
-      "title": "Pavora Cryo Hopper",
-      "description": "Insulated dry-ice hopper so pellets last through a shift instead of turning into a brick.",
-      "collection": "dry-ice",
-      "price": 4200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0025",
-      "brand": "Pavora",
-      "equipmentType": "Pellet hopper",
-      "tradeTypes": [
-        "dry-ice blasting"
-      ],
-      "contractorTypes": [
-        "blasting contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Insulated hopper that keeps pellets from sintering on a hot job",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Hopper 30 in",
-      "weightLbs": 96,
-      "applications": [
-        "Jobsite staging",
-        "Long blasts"
-      ],
-      "intendedUsers": [
-        "Blasting contractors",
-        "Industrial cleaners",
-        "Restoration crews"
-      ],
-      "benefits": [
-        "Insulation",
-        "Slide gate",
-        "Fork pockets"
-      ],
-      "included": [
-        "Hopper",
-        "Lid",
-        "Gate"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora pellet hopper equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "hopper",
-        "pellets"
-      ],
-      "image": "/media/gear/px-sparks.jpg",
-      "monthly": 117
-    },
-    {
-      "id": "pv-026",
-      "handle": "pavora-cryo-pellet-maker",
-      "title": "Pavora Cryo Pellet Maker",
-      "description": "On-site pelletizer for crews that cannot wait on a dry-ice delivery.",
-      "collection": "dry-ice",
-      "price": 9800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0026",
-      "brand": "Pavora",
-      "equipmentType": "Pelletizer",
-      "tradeTypes": [
-        "dry-ice blasting"
-      ],
-      "contractorTypes": [
-        "blasting contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Make pellets on site when the ice truck is late",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "240V + LCO2",
-      "dimensions": "Skid 40 in",
-      "weightLbs": 380,
-      "applications": [
-        "On-site production",
-        "Remote plants"
-      ],
-      "intendedUsers": [
-        "Blasting contractors",
-        "Industrial cleaners",
-        "Restoration crews"
-      ],
-      "benefits": [
-        "3 mm pellets",
-        "On demand",
-        "Less waste"
-      ],
-      "included": [
-        "Pelletizer",
-        "Die",
-        "Insulated bin"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora pelletizer equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "pelletizer",
-        "dry ice"
-      ],
-      "image": "/media/gear/px-cnc.jpg",
+      "image": "/media/catalog/kettle.webp",
       "monthly": 272
     },
     {
-      "id": "pv-027",
+      "id": "pv-005",
       "handle": "pavora-soda-pro-250",
       "title": "Pavora Soda-Pro 250",
-      "description": "Soda blast pot for stripping paint and contaminants where sand would cut too deep.",
+      "description": "A portable pressure blast pot on a wheeled frame with hose and nozzle. Use soda or sand — this is the pot, not a grinder.",
       "collection": "soda",
       "price": 6400,
       "compareAtPrice": null,
       "currency": "USD",
-      "sku": "PV-0027",
+      "sku": "PV-0005",
       "brand": "Pavora",
-      "equipmentType": "Soda blast pot",
+      "equipmentType": "Portable blast pot",
       "tradeTypes": [
         "soda blasting",
-        "coating removal"
+        "sand blasting"
       ],
       "contractorTypes": [
         "blasting contractor",
@@ -2139,7 +389,7 @@
       "financing": true,
       "quoteOnly": false,
       "inStock": true,
-      "highlight": "Sodium bicarbonate blasting for paint and grime without heavy profile",
+      "highlight": "Wheeled pressure pot for soda or sand blasting",
       "leadTime": "Ships in 5–12 business days",
       "power": "Requires 185 cfm air",
       "dimensions": "Pot 36 in",
@@ -2148,7 +398,7 @@
         "Buildings",
         "Machinery",
         "Vehicles",
-        "Fire soot"
+        "Paint removal"
       ],
       "intendedUsers": [
         "Blasting contractors",
@@ -2156,128 +406,55 @@
         "Restoration crews"
       ],
       "benefits": [
-        "Soft abrasive",
-        "Moisture trap",
-        "Metering valve"
+        "Wheeled pot",
+        "Metering valve",
+        "Deadman hose"
       ],
       "included": [
         "Pot",
         "Hose",
-        "Nozzles",
-        "Moisture trap"
+        "Nozzle",
+        "Helmet"
       ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora soda blast pot equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora portable blast pot equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
       "featured": true,
       "tags": [
+        "blast",
         "soda",
-        "paint removal",
-        "blast"
+        "pot"
       ],
-      "image": "/media/gear/blaster.jpg",
+      "image": "/media/catalog/blast.webp",
       "monthly": 178
     },
     {
-      "id": "pv-028",
-      "handle": "pavora-soda-pot-80",
-      "title": "Pavora Soda-Pot 80",
-      "description": "Compact soda pot for vehicles and detail work that does not need a 250-pound pot.",
-      "collection": "soda",
-      "price": 2100,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0028",
-      "brand": "Pavora",
-      "equipmentType": "Compact soda pot",
-      "tradeTypes": [
-        "soda blasting"
-      ],
-      "contractorTypes": [
-        "blasting contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Eighty-pound pot for detail and vehicle work",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Shop air",
-      "dimensions": "Pot 22 in",
-      "weightLbs": 64,
-      "applications": [
-        "Vehicles",
-        "Trim",
-        "Small parts"
-      ],
-      "intendedUsers": [
-        "Blasting contractors",
-        "Industrial cleaners",
-        "Restoration crews"
-      ],
-      "benefits": [
-        "Portable",
-        "Fine metering"
-      ],
-      "included": [
-        "Pot",
-        "Hose",
-        "Nozzle"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora compact soda pot equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "soda",
-        "compact"
-      ],
-      "image": "/media/gear/px-grinder.jpg",
-      "monthly": 58
-    },
-    {
-      "id": "pv-029",
+      "id": "pv-006",
       "handle": "pavora-media-vac-recovery",
       "title": "Pavora Media-Vac Recovery",
-      "description": "Recovery vacuum so soda blasting indoors does not become a bicarbonate snowstorm.",
+      "description": "A red recovery blast pot with filter cartridge and caster base. Recovers media instead of leaving it on the floor.",
       "collection": "soda",
       "price": 4800,
       "compareAtPrice": null,
       "currency": "USD",
-      "sku": "PV-0029",
+      "sku": "PV-0006",
       "brand": "Pavora",
-      "equipmentType": "Media vacuum",
+      "equipmentType": "Recovery blast pot",
       "tradeTypes": [
         "soda blasting",
         "cleanup"
@@ -2290,9 +467,9 @@
       "financing": true,
       "quoteOnly": false,
       "inStock": true,
-      "highlight": "Recover soda and debris instead of leaving a white drift",
+      "highlight": "Blast pot with built-in vacuum recovery and dust filter",
       "leadTime": "Ships in 5–12 business days",
-      "power": "230V",
+      "power": "230V + air",
       "dimensions": "Vac 28 × 22 × 40 in",
       "weightLbs": 142,
       "applications": [
@@ -2306,54 +483,54 @@
         "Restoration crews"
       ],
       "benefits": [
-        "Cyclone",
-        "HEPA option",
-        "Dump drum"
+        "Onboard filter",
+        "Caster base",
+        "Recovery hoses"
       ],
       "included": [
-        "Vac",
-        "Hose",
-        "Cyclone"
+        "Recovery pot",
+        "Filter",
+        "Hoses"
       ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora media vacuum equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora recovery blast pot equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
       "featured": false,
       "tags": [
         "vac",
         "recovery",
-        "soda"
+        "blast"
       ],
-      "image": "/media/gear/px-sparks.jpg",
+      "image": "/media/catalog/blast2.webp",
       "monthly": 133
     },
     {
-      "id": "pv-030",
+      "id": "pv-007",
       "handle": "pavora-lase-200-fiber",
       "title": "Pavora Lase-200 Fiber Cleaner",
-      "description": "200-watt fiber laser cleaner for rust and coating removal without abrasive waste. Quoted with safety package.",
+      "description": "A wheeled fiber laser cleaning cart with the handheld gun coiled on top. This is the machine you see on DHgate when you search laser cleaner.",
       "collection": "laser",
       "price": 28500,
       "compareAtPrice": null,
       "currency": "USD",
-      "sku": "PV-0030",
+      "sku": "PV-0007",
       "brand": "Pavora",
-      "equipmentType": "200W fiber laser cleaner",
+      "equipmentType": "Handheld fiber laser cleaner",
       "tradeTypes": [
         "laser cleaning",
         "surface prep"
@@ -2367,7 +544,7 @@
       "financing": true,
       "quoteOnly": true,
       "inStock": true,
-      "highlight": "Strip rust, paint, and residue with light instead of grit",
+      "highlight": "Cart-mounted fiber laser with handheld gun — strip rust and paint without grit",
       "leadTime": "Quoted lead time, typically 2–5 weeks",
       "power": "240V 1Ø",
       "dimensions": "Cart 32 × 22 × 44 in",
@@ -2385,31 +562,31 @@
       ],
       "benefits": [
         "No media waste",
-        "Precise",
-        "Low substrate damage"
+        "Handheld gun",
+        "Wheeled cart"
       ],
       "included": [
         "Laser cart",
-        "Gun",
-        "Goggles",
-        "Chiller"
+        "Handheld gun",
+        "Umbilical",
+        "Goggles"
       ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora 200w fiber laser cleaner equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora handheld fiber laser cleaner equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
       "featured": true,
@@ -2418,174 +595,23 @@
         "rust",
         "cleaning"
       ],
-      "image": "/media/gear/us-cnc.jpg",
+      "image": "/media/catalog/laser.webp",
       "monthly": 792
     },
     {
-      "id": "pv-031",
-      "handle": "pavora-lase-handheld-50",
-      "title": "Pavora Lase-Handheld 50",
-      "description": "50-watt handheld laser for detail cleaning where a 200-watt cart is overkill.",
-      "collection": "laser",
-      "price": 12400,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0031",
-      "brand": "Pavora",
-      "equipmentType": "50W handheld laser",
-      "tradeTypes": [
-        "laser cleaning"
-      ],
-      "contractorTypes": [
-        "blasting contractor",
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Handheld unit for welds, fixtures, and restoration details",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V",
-      "dimensions": "Case 22 in",
-      "weightLbs": 28,
-      "applications": [
-        "Welds",
-        "Fixtures",
-        "Detail rust"
-      ],
-      "intendedUsers": [
-        "Blasting contractors",
-        "Industrial cleaners",
-        "Restoration crews"
-      ],
-      "benefits": [
-        "Portable",
-        "Air cooled",
-        "Class safety kit"
-      ],
-      "included": [
-        "Handheld",
-        "Goggles",
-        "Case"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora 50w handheld laser equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "laser",
-        "handheld"
-      ],
-      "image": "/media/gear/px-cnc.jpg",
-      "monthly": 344
-    },
-    {
-      "id": "pv-032",
-      "handle": "pavora-lase-cart-100",
-      "title": "Pavora Lase-Cart 100",
-      "description": "100-watt laser cart for shops that clean parts and molds every day.",
-      "collection": "laser",
-      "price": 18900,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0032",
-      "brand": "Pavora",
-      "equipmentType": "100W laser cart",
-      "tradeTypes": [
-        "laser cleaning"
-      ],
-      "contractorTypes": [
-        "blasting contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Mid-power cart for shops that run laser cleaning daily",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "240V",
-      "dimensions": "Cart 30 in",
-      "weightLbs": 154,
-      "applications": [
-        "Shop work",
-        "Molds",
-        "Parts"
-      ],
-      "intendedUsers": [
-        "Blasting contractors",
-        "Industrial cleaners",
-        "Restoration crews"
-      ],
-      "benefits": [
-        "Water cooled",
-        "Interlock",
-        "Fume port"
-      ],
-      "included": [
-        "Cart",
-        "Gun",
-        "Chiller",
-        "Fume adapter"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora 100w laser cart equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "laser",
-        "cart"
-      ],
-      "image": "/media/gear/px-sparks.jpg",
-      "monthly": 525
-    },
-    {
-      "id": "pv-033",
-      "handle": "pavora-wash-4000-trailer",
-      "title": "Pavora Wash-4000 Trailer",
-      "description": "Hot-water trailer washer for commercial exteriors, docks, and garage decks.",
+      "id": "pv-008",
+      "handle": "pavora-wash-cart-2700",
+      "title": "Pavora Wash-Cart 2700",
+      "description": "A gas-powered pressure washer on a wheeled cart: engine, wand, hose, and soap tank. The listing photo is this machine.",
       "collection": "pressure-wash",
-      "price": 8900,
+      "price": 3200,
       "compareAtPrice": null,
       "currency": "USD",
-      "sku": "PV-0033",
+      "sku": "PV-0008",
       "brand": "Pavora",
-      "equipmentType": "Hot-water pressure washer trailer",
+      "equipmentType": "Gas pressure washer",
       "tradeTypes": [
-        "pressure washing",
-        "hot water"
+        "pressure washing"
       ],
       "contractorTypes": [
         "restoration contractor",
@@ -2596,290 +622,71 @@
       "financing": true,
       "quoteOnly": false,
       "inStock": true,
-      "highlight": "4000 PSI hot wash for docks, garages, and building exteriors",
+      "highlight": "2700 PSI gas cart washer for lots, docks, and exteriors",
       "leadTime": "Ships in 5–12 business days",
-      "power": "Honda + diesel burner",
-      "dimensions": "Trailer 8 ft",
-      "weightLbs": 1180,
+      "power": "Gasoline engine",
+      "dimensions": "Cart 28 in",
+      "weightLbs": 72,
       "applications": [
-        "Warehouses",
-        "Parking garages",
-        "Loading docks",
-        "Exteriors"
+        "Lots",
+        "Docks",
+        "Building exteriors",
+        "Sidewalks"
       ],
       "intendedUsers": [
         "Pressure-wash contractors",
-        "Property managers",
-        "Restoration crews"
+        "Property managers"
       ],
       "benefits": [
-        "Hot water",
-        "Hose reel",
-        "Chemical injector"
+        "2700 PSI",
+        "Quick-connect tips",
+        "Soap tank"
       ],
       "included": [
-        "Trailer washer",
-        "Hoses",
-        "Surface cleaner mount"
+        "Washer",
+        "Wand",
+        "Hose",
+        "Tip set"
       ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora hot-water pressure washer trailer equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora gas pressure washer equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
       "featured": true,
       "tags": [
         "pressure wash",
-        "hot water",
-        "trailer"
+        "gas",
+        "cart"
       ],
-      "image": "/media/gear/px-wash.jpg",
-      "monthly": 247
-    },
-    {
-      "id": "pv-034",
-      "handle": "pavora-wash-hot-8gpm",
-      "title": "Pavora Wash-Hot 8 GPM",
-      "description": "High-flow hot washer for industrial bays that a 4 GPM machine cannot keep up with.",
-      "collection": "pressure-wash",
-      "price": 11200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0034",
-      "brand": "Pavora",
-      "equipmentType": "Skid hot washer",
-      "tradeTypes": [
-        "pressure washing"
-      ],
-      "contractorTypes": [
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Eight gallons a minute for fleet and industrial wash bays",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Diesel",
-      "dimensions": "Skid 5 × 3 ft",
-      "weightLbs": 640,
-      "applications": [
-        "Fleet",
-        "Industrial",
-        "Food plants"
-      ],
-      "intendedUsers": [
-        "Industrial cleaners"
-      ],
-      "benefits": [
-        "High flow",
-        "Belt drive",
-        "Downstream chem"
-      ],
-      "included": [
-        "Skid",
-        "Gun",
-        "Hose"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora skid hot washer equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "8 gpm",
-        "hot",
-        "industrial"
-      ],
-      "image": "/media/gear/px-wash2.jpg",
-      "monthly": 311
-    },
-    {
-      "id": "pv-035",
-      "handle": "pavora-surface-cleaner-21",
-      "title": "Pavora Surface-Cleaner 21",
-      "description": "Rotary surface cleaner so sidewalks and lots do not look zebra-striped.",
-      "collection": "pressure-wash",
-      "price": 1450,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0035",
-      "brand": "Pavora",
-      "equipmentType": "Rotary surface cleaner",
-      "tradeTypes": [
-        "pressure washing"
-      ],
-      "contractorTypes": [
-        "restoration contractor",
-        "property management"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "21-inch deck that leaves even wash paths on lots and sidewalks",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "From washer",
-      "dimensions": "21\" deck",
-      "weightLbs": 38,
-      "applications": [
-        "Sidewalks",
-        "Lots",
-        "Plaza decks"
-      ],
-      "intendedUsers": [
-        "Pressure-wash contractors"
-      ],
-      "benefits": [
-        "Even path",
-        "Splash guard",
-        "Swivel"
-      ],
-      "included": [
-        "Deck",
-        "Tips",
-        "Handle"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora rotary surface cleaner equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "surface cleaner",
-        "sidewalk"
-      ],
-      "image": "/media/gear/px-spray2.jpg",
-      "monthly": 40
-    },
-    {
-      "id": "pv-036",
-      "handle": "pavora-wash-cart-3000",
-      "title": "Pavora Wash-Cart 3000",
-      "description": "Electric cold washer for interiors where a gas engine is not allowed.",
-      "collection": "pressure-wash",
-      "price": 3200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0036",
-      "brand": "Pavora",
-      "equipmentType": "Cold-water cart washer",
-      "tradeTypes": [
-        "pressure washing"
-      ],
-      "contractorTypes": [
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "3000 PSI cart for interiors and occupied sites",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "230V",
-      "dimensions": "Cart 28 in",
-      "weightLbs": 164,
-      "applications": [
-        "Interiors",
-        "Food plants",
-        "Garages"
-      ],
-      "intendedUsers": [
-        "Pressure-wash contractors"
-      ],
-      "benefits": [
-        "Electric",
-        "Quiet",
-        "No exhaust"
-      ],
-      "included": [
-        "Cart",
-        "Hose",
-        "Gun"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora cold-water cart washer equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "electric",
-        "indoor",
-        "wash"
-      ],
-      "image": "/media/gear/px-wash.jpg",
+      "image": "/media/catalog/washer-cart.webp",
       "monthly": 89
     },
     {
-      "id": "pv-037",
+      "id": "pv-009",
       "handle": "pavora-lotline-walk",
       "title": "Pavora Lotline Walk",
-      "description": "Walk-behind airless striper for parking lots. The machine most striping companies actually live on.",
+      "description": "A walk-behind cold-paint road marking machine. This is a line striper — not a pressure washer and not a grinder.",
       "collection": "lot-painting",
       "price": 5400,
       "compareAtPrice": null,
       "currency": "USD",
-      "sku": "PV-0037",
+      "sku": "PV-0009",
       "brand": "Pavora",
-      "equipmentType": "Walk-behind striper",
+      "equipmentType": "Walk-behind line striper",
       "tradeTypes": [
         "parking lot painting",
         "striping"
@@ -2893,9 +700,9 @@
       "financing": true,
       "quoteOnly": false,
       "inStock": true,
-      "highlight": "Airless walk-behind for stalls, arrows, and hash marks",
+      "highlight": "Cold-paint walk-behind for stalls, arrows, and hash marks",
       "leadTime": "Ships in 5–12 business days",
-      "power": "Honda 4-stroke",
+      "power": "Gasoline engine",
       "dimensions": "Walk-behind 40 in",
       "weightLbs": 148,
       "applications": [
@@ -2906,37 +713,34 @@
       ],
       "intendedUsers": [
         "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
+        "Parking lot painters"
       ],
       "benefits": [
-        "Line width 2–6 in",
-        "Bead option",
-        "Pointer",
-        "Stencil tray"
+        "Adjustable line width",
+        "Bead spreader",
+        "Walk-behind"
       ],
       "included": [
         "Striper",
         "Gun",
-        "Pointers",
-        "Hopper"
+        "Bead hopper"
       ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora walk-behind striper equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora walk-behind line striper equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
       "featured": true,
@@ -2945,936 +749,24 @@
         "parking lot",
         "paint"
       ],
-      "image": "/media/gear/px-spray.jpg",
+      "image": "/media/catalog/striper.webp",
       "monthly": 150
     },
     {
-      "id": "pv-038",
-      "handle": "pavora-lotline-ride",
-      "title": "Pavora Lotline Ride",
-      "description": "Ride-on lot painter for crews that stripe acres, not a dozen stalls.",
-      "collection": "lot-painting",
-      "price": 18600,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0038",
-      "brand": "Pavora",
-      "equipmentType": "Ride-on lot striper",
-      "tradeTypes": [
-        "parking lot painting",
-        "striping"
-      ],
-      "contractorTypes": [
-        "striping contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Ride-on painter for large lots and warehouse floors",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Honda 13 hp",
-      "dimensions": "Ride-on 7 ft",
-      "weightLbs": 860,
-      "applications": [
-        "Large lots",
-        "Warehouses",
-        "Airfields"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Two guns",
-        "Skip timer",
-        "Seat"
-      ],
-      "included": [
-        "Ride-on",
-        "Guns",
-        "Bead tanks"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora ride-on lot striper equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "ride-on",
-        "lot",
-        "paint"
-      ],
-      "image": "/media/gear/px-spray2.jpg",
-      "monthly": 517
-    },
-    {
-      "id": "pv-039",
-      "handle": "pavora-stencil-bank",
-      "title": "Pavora Stencil Bank",
-      "description": "Commercial stencil bank so the lot gets legal legends, not chalked guesses.",
-      "collection": "lot-painting",
-      "price": 890,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0039",
-      "brand": "Pavora",
-      "equipmentType": "Stencil set",
-      "tradeTypes": [
-        "parking lot painting"
-      ],
-      "contractorTypes": [
-        "striping contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Arrows, handicap, stop, and number stencils in one crate",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Crate 48 in",
-      "weightLbs": 54,
-      "applications": [
-        "ADA",
-        "Arrows",
-        "Numbers"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "0.125 in plastic",
-        "Grommets",
-        "Nested crate"
-      ],
-      "included": [
-        "Stencil set",
-        "Crate",
-        "Weights"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora stencil set equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "stencils",
-        "ada",
-        "arrows"
-      ],
-      "image": "/media/gear/px-wash.jpg",
-      "monthly": 25
-    },
-    {
-      "id": "pv-040",
-      "handle": "pavora-airless-stripe",
-      "title": "Pavora Airless-Stripe",
-      "description": "Airless cart for curbs and islands the walk-behind striper cannot hug.",
-      "collection": "lot-painting",
-      "price": 2800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0040",
-      "brand": "Pavora",
-      "equipmentType": "Airless paint sprayer",
-      "tradeTypes": [
-        "parking lot painting"
-      ],
-      "contractorTypes": [
-        "striping contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Airless cart for curbs, islands, and touch-up",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V",
-      "dimensions": "Cart 24 in",
-      "weightLbs": 72,
-      "applications": [
-        "Curbs",
-        "Islands",
-        "Touch-up"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Fine tip",
-        "Hose 50 ft",
-        "Hopper"
-      ],
-      "included": [
-        "Sprayer",
-        "Tips",
-        "Hose"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora airless paint sprayer equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "airless",
-        "curb",
-        "paint"
-      ],
-      "image": "/media/gear/px-spray.jpg",
-      "monthly": 78
-    },
-    {
-      "id": "pv-041",
-      "handle": "pavora-skydeck-rtk",
-      "title": "Pavora Skydeck RTK",
-      "description": "RTK inspection drone for commercial roofs. Photographic reports without sending a person onto a 4:12 in July.",
-      "collection": "drone",
-      "price": 9200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0041",
-      "brand": "Pavora",
-      "equipmentType": "RTK inspection drone",
-      "tradeTypes": [
-        "drone inspection",
-        "roof"
-      ],
-      "contractorTypes": [
-        "roofing contractor",
-        "property management"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "RTK drone for commercial roof photo sets with survey-grade position",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Battery",
-      "dimensions": "Case 22 in",
-      "weightLbs": 12,
-      "applications": [
-        "Roof surveys",
-        "After-storm",
-        "Warranty docs"
-      ],
-      "intendedUsers": [
-        "Roofing contractors",
-        "Building inspectors",
-        "Property managers"
-      ],
-      "benefits": [
-        "RTK",
-        "Obstacle sensing",
-        "Mission planner"
-      ],
-      "included": [
-        "Drone",
-        "Batteries ×4",
-        "Controller",
-        "Case"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora rtk inspection drone equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "drone",
-        "rtk",
-        "roof"
-      ],
-      "image": "/media/gear/px-drone2.jpg",
-      "monthly": 256
-    },
-    {
-      "id": "pv-042",
-      "handle": "pavora-skydeck-thermal",
-      "title": "Pavora Skydeck Thermal",
-      "description": "Thermal + RGB drone for roof leak detection from the air. Pair with a handheld IR camera for confirmation.",
-      "collection": "drone",
-      "price": 14800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0042",
-      "brand": "Pavora",
-      "equipmentType": "Thermal inspection drone",
-      "tradeTypes": [
-        "drone inspection",
-        "thermal",
-        "roof"
-      ],
-      "contractorTypes": [
-        "roofing contractor",
-        "property management"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Radiometric thermal + RGB for leak hunts from the air",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Battery",
-      "dimensions": "Case 24 in",
-      "weightLbs": 14,
-      "applications": [
-        "Moisture mapping",
-        "Night surveys",
-        "Flat roofs"
-      ],
-      "intendedUsers": [
-        "Roofing contractors",
-        "Building inspectors",
-        "Property managers"
-      ],
-      "benefits": [
-        "Radiometric",
-        "RGB overlay",
-        "Report export"
-      ],
-      "included": [
-        "Thermal drone",
-        "Batteries",
-        "Software seat"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora thermal inspection drone equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "drone",
-        "thermal",
-        "leak"
-      ],
-      "image": "/media/gear/px-drone.jpg",
-      "monthly": 411
-    },
-    {
-      "id": "pv-043",
-      "handle": "pavora-roof-report-station",
-      "title": "Pavora Roof-Report Station",
-      "description": "Field station that turns a flight into a client PDF before you leave the lot.",
-      "collection": "drone",
-      "price": 2100,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0043",
-      "brand": "Pavora",
-      "equipmentType": "Field reporting laptop kit",
-      "tradeTypes": [
-        "drone inspection",
-        "reporting"
-      ],
-      "contractorTypes": [
-        "roofing contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Rugged station that compiles photo and thermal reports on site",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Battery / 120V",
-      "dimensions": "Case 18 in",
-      "weightLbs": 9,
-      "applications": [
-        "Client PDFs",
-        "Insurance",
-        "Punch lists"
-      ],
-      "intendedUsers": [
-        "Roofing contractors",
-        "Building inspectors",
-        "Property managers"
-      ],
-      "benefits": [
-        "Templates",
-        "GPS stamp",
-        "Offline"
-      ],
-      "included": [
-        "Rugged laptop",
-        "Templates",
-        "Case"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora field reporting laptop kit equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "report",
-        "laptop",
-        "roof"
-      ],
-      "image": "/media/gear/us-drone.jpg",
-      "monthly": 58
-    },
-    {
-      "id": "pv-044",
-      "handle": "pavora-thermascan-pro",
-      "title": "Pavora Thermascan Pro",
-      "description": "Handheld radiometric camera for finding wet insulation without a tear-off.",
-      "collection": "thermal",
-      "price": 7800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0044",
-      "brand": "Pavora",
-      "equipmentType": "Radiometric IR camera",
-      "tradeTypes": [
-        "thermal inspection",
-        "leak detection"
-      ],
-      "contractorTypes": [
-        "roofing contractor",
-        "property management"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Handheld infrared for moisture intrusion without tearing the roof",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Battery",
-      "dimensions": "Camera 11 in",
-      "weightLbs": 2,
-      "applications": [
-        "Flat roofs",
-        "Walls",
-        "Plaza decks"
-      ],
-      "intendedUsers": [
-        "Roofing contractors",
-        "Building inspectors",
-        "Property managers"
-      ],
-      "benefits": [
-        "Radiometric JPEGs",
-        "Laser pointer",
-        "Wi-Fi to report station"
-      ],
-      "included": [
-        "Camera",
-        "Lenses",
-        "Batteries",
-        "Case"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora radiometric ir camera equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "infrared",
-        "thermal",
-        "moisture"
-      ],
-      "image": "/media/gear/us-cnc.jpg",
-      "monthly": 217
-    },
-    {
-      "id": "pv-045",
-      "handle": "pavora-moisture-meter-kit",
-      "title": "Pavora Moisture-Meter Kit",
-      "description": "Moisture meters that confirm what the thermal camera only suggests.",
-      "collection": "thermal",
-      "price": 640,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0045",
-      "brand": "Pavora",
-      "equipmentType": "Moisture meter kit",
-      "tradeTypes": [
-        "leak detection"
-      ],
-      "contractorTypes": [
-        "roofing contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Confirm IR hits with pin and pinless meters",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Battery",
-      "dimensions": "Kit 14 in",
-      "weightLbs": 4,
-      "applications": [
-        "Confirm wet insulation",
-        "Decks",
-        "Walls"
-      ],
-      "intendedUsers": [
-        "Roofing contractors",
-        "Building inspectors",
-        "Property managers"
-      ],
-      "benefits": [
-        "Pin and pinless",
-        "Scale charts"
-      ],
-      "included": [
-        "Two meters",
-        "Probes",
-        "Case"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora moisture meter kit equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "moisture",
-        "meter"
-      ],
-      "image": "/media/gear/us-elec.jpg",
-      "monthly": 18
-    },
-    {
-      "id": "pv-046",
-      "handle": "pavora-ir-roof-array",
-      "title": "Pavora IR-Roof Array",
-      "description": "Multi-camera infrared array for large low-slope roofs surveyed after sundown.",
-      "collection": "thermal",
-      "price": 12400,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0046",
-      "brand": "Pavora",
-      "equipmentType": "Multi-camera IR array",
-      "tradeTypes": [
-        "thermal inspection"
-      ],
-      "contractorTypes": [
-        "roofing contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Wide-area array for large low-slope roofs after sundown",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Battery / 12V",
-      "dimensions": "Array bar 48 in",
-      "weightLbs": 18,
-      "applications": [
-        "Big-box roofs",
-        "Night surveys"
-      ],
-      "intendedUsers": [
-        "Roofing contractors",
-        "Building inspectors",
-        "Property managers"
-      ],
-      "benefits": [
-        "Wide FOV",
-        "Sync to GPS",
-        "Tripod"
-      ],
-      "included": [
-        "Array",
-        "Tripod",
-        "Recorder"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora multi-camera ir array equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "array",
-        "infrared",
-        "roof"
-      ],
-      "image": "/media/gear/px-indust.jpg",
-      "monthly": 344
-    },
-    {
-      "id": "pv-047",
-      "handle": "pavora-joint-saw-18",
-      "title": "Pavora Joint-Saw 18",
-      "description": "Joint saw for cutting out failed expansion joints in parking garages and decks.",
-      "collection": "expansion-joints",
-      "price": 6400,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0047",
-      "brand": "Pavora",
-      "equipmentType": "Walk-behind joint saw",
-      "tradeTypes": [
-        "expansion joints",
-        "concrete sawing"
-      ],
-      "contractorTypes": [
-        "restoration contractor",
-        "parking garage"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "18-inch saw for removing failed expansion joints in garages",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "Honda 13 hp",
-      "dimensions": "Saw 40 in",
-      "weightLbs": 286,
-      "applications": [
-        "Garage joints",
-        "Plaza decks",
-        "Sidewalks"
-      ],
-      "intendedUsers": [
-        "Restoration contractors",
-        "Glazing crews",
-        "General contractors"
-      ],
-      "benefits": [
-        "Depth control",
-        "Vac port",
-        "Water kit"
-      ],
-      "included": [
-        "Saw",
-        "Blade",
-        "Vac adapter"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora walk-behind joint saw equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "saw",
-        "joint",
-        "garage"
-      ],
-      "image": "/media/gear/px-sparks.jpg",
-      "monthly": 178
-    },
-    {
-      "id": "pv-048",
-      "handle": "pavora-joint-fill-pump",
-      "title": "Pavora Joint-Fill Pump",
-      "description": "Metered fill pump for silicone and polyurethane joint replacement.",
-      "collection": "expansion-joints",
-      "price": 4200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0048",
-      "brand": "Pavora",
-      "equipmentType": "Joint fill pump",
-      "tradeTypes": [
-        "expansion joints",
-        "sealant"
-      ],
-      "contractorTypes": [
-        "restoration contractor",
-        "parking garage"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Meters silicone or polyurethane into prepared joints",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V",
-      "dimensions": "Cart 22 in",
-      "weightLbs": 86,
-      "applications": [
-        "Garage joints",
-        "Plaza",
-        "Sidewalks"
-      ],
-      "intendedUsers": [
-        "Restoration contractors",
-        "Glazing crews",
-        "General contractors"
-      ],
-      "benefits": [
-        "Ratio meter",
-        "Heat option",
-        "Flush"
-      ],
-      "included": [
-        "Pump",
-        "Hoses",
-        "Nozzles"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora joint fill pump equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "fill",
-        "sealant",
-        "joint"
-      ],
-      "image": "/media/gear/polisher.jpg",
-      "monthly": 117
-    },
-    {
-      "id": "pv-049",
-      "handle": "pavora-garage-joint-kit",
-      "title": "Pavora Garage-Joint Kit",
-      "description": "Material kit so the saw and pump are not waiting on a supply house.",
-      "collection": "expansion-joints",
-      "price": 1800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0049",
-      "brand": "Pavora",
-      "equipmentType": "Joint replacement kit",
-      "tradeTypes": [
-        "expansion joints"
-      ],
-      "contractorTypes": [
-        "parking garage",
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Backer, primer, and nosing materials for a first bay",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Pallet kit",
-      "weightLbs": 120,
-      "applications": [
-        "First bay",
-        "Punch list"
-      ],
-      "intendedUsers": [
-        "Restoration contractors",
-        "Glazing crews",
-        "General contractors"
-      ],
-      "benefits": [
-        "Matched materials",
-        "Coverage chart"
-      ],
-      "included": [
-        "Backer",
-        "Primer",
-        "Nosing",
-        "Chart"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora joint replacement kit equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "kit",
-        "backer",
-        "primer"
-      ],
-      "image": "/media/gear/px-grinder.jpg",
-      "monthly": 50
-    },
-    {
-      "id": "pv-050",
-      "handle": "pavora-seal-gun-bulk",
-      "title": "Pavora Seal-Gun Bulk",
-      "description": "Bulk and sausage guns for commercial caulking that a hardware-store cartridge gun cannot keep up with.",
+      "id": "pv-010",
+      "handle": "pavora-seal-gun-dual",
+      "title": "Pavora Seal-Gun Dual",
+      "description": "A red dual-cartridge epoxy applicator gun. Two plungers, one trigger. This is a glue gun for two-part adhesive — not a drill.",
       "collection": "caulking",
       "price": 890,
       "compareAtPrice": null,
       "currency": "USD",
-      "sku": "PV-0050",
+      "sku": "PV-0010",
       "brand": "Pavora",
-      "equipmentType": "Bulk caulk gun",
+      "equipmentType": "Dual-cartridge epoxy gun",
       "tradeTypes": [
         "caulking",
-        "joint sealing"
+        "epoxy"
       ],
       "contractorTypes": [
         "restoration contractor",
@@ -3885,15 +777,16 @@
       "financing": true,
       "quoteOnly": false,
       "inStock": true,
-      "highlight": "Sausage and bulk guns for facade and window joints",
+      "highlight": "Manual 1:1 dual-cartridge gun for epoxy and structural adhesives",
       "leadTime": "Ships in 5–12 business days",
-      "power": "None / battery option",
+      "power": "None",
       "dimensions": "Gun 24 in",
       "weightLbs": 6,
       "applications": [
-        "Windows",
-        "Facades",
-        "Penetrations"
+        "Joints",
+        "Anchors",
+        "Crack face seal",
+        "Facades"
       ],
       "intendedUsers": [
         "Restoration contractors",
@@ -3901,1677 +794,40 @@
         "General contractors"
       ],
       "benefits": [
-        "Bulk and sausage",
-        "Smooth rod",
+        "1:1 dual plunger",
+        "Manual trigger",
+        "Cartridge cradle"
+      ],
+      "included": [
+        "Dual gun",
         "Nozzle set"
       ],
-      "included": [
-        "Two guns",
-        "Nozzles",
-        "Sausage plates"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
+      "installation": "Yard delivery. Commissioning video included.",
+      "training": "Remote crew walkthrough included.",
+      "shipping": "Commercial freight, contiguous U.S. Liftgate on request.",
       "replacementParts": "Wear parts stocked for 7 years from purchase date.",
       "faqs": [
         {
           "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora bulk caulk gun equipment is specified for contractor crews, not weekend rental-counter toys."
+          "a": "Yes. Pavora dual-cartridge epoxy gun equipment is specified for contractor crews."
         },
         {
           "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
+          "a": "Remote start-up is included. On-site days are quoted separately."
         },
         {
           "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
+          "a": "Commercial freight in the contiguous U.S. Liftgate on request."
         }
       ],
-      "featured": false,
+      "featured": true,
       "tags": [
         "caulk",
-        "bulk",
-        "facade"
+        "epoxy",
+        "dual gun"
       ],
-      "image": "/media/gear/px-spray.jpg",
+      "image": "/media/catalog/caulk.webp",
       "monthly": 25
-    },
-    {
-      "id": "pv-051",
-      "handle": "pavora-facade-pump",
-      "title": "Pavora Facade Pump",
-      "description": "Facade pump that feeds swing-stage caulkers without hauling pails up the elevation.",
-      "collection": "caulking",
-      "price": 5400,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0051",
-      "brand": "Pavora",
-      "equipmentType": "Plural-component facade pump",
-      "tradeTypes": [
-        "caulking",
-        "facade"
-      ],
-      "contractorTypes": [
-        "restoration contractor",
-        "glazing contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Pumps silicone and polyurethane to swing-stage crews",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V",
-      "dimensions": "Cart 26 in",
-      "weightLbs": 118,
-      "applications": [
-        "Curtain wall",
-        "Expansion joints",
-        "Penetrations"
-      ],
-      "intendedUsers": [
-        "Restoration contractors",
-        "Glazing crews",
-        "General contractors"
-      ],
-      "benefits": [
-        "Long hose",
-        "Ratio control",
-        "Stage mount"
-      ],
-      "included": [
-        "Pump",
-        "100 ft hose",
-        "Guns"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora plural-component facade pump equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "facade",
-        "pump",
-        "silicone"
-      ],
-      "image": "/media/gear/us-tools.jpg",
-      "monthly": 150
-    },
-    {
-      "id": "pv-052",
-      "handle": "pavora-joint-prep-grinder",
-      "title": "Pavora Joint-Prep Grinder",
-      "description": "Joint-prep grinder that removes failed sealant and opens the joint to the right profile.",
-      "collection": "caulking",
-      "price": 2100,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0052",
-      "brand": "Pavora",
-      "equipmentType": "Joint prep grinder",
-      "tradeTypes": [
-        "caulking",
-        "prep"
-      ],
-      "contractorTypes": [
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Opens and cleans joints before sealant so it actually sticks",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V",
-      "dimensions": "Tool 16 in",
-      "weightLbs": 14,
-      "applications": [
-        "Failed caulk",
-        "Windows",
-        "Concrete joints"
-      ],
-      "intendedUsers": [
-        "Restoration contractors",
-        "Glazing crews",
-        "General contractors"
-      ],
-      "benefits": [
-        "Dust shroud",
-        "Width guides"
-      ],
-      "included": [
-        "Grinder",
-        "Wheels",
-        "Shroud"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora joint prep grinder equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "prep",
-        "grinder",
-        "joint"
-      ],
-      "image": "/media/gear/px-tools2.jpg",
-      "monthly": 58
-    },
-    {
-      "id": "pv-053",
-      "handle": "pavora-garage-restore-pack",
-      "title": "Pavora Garage Restore Pack",
-      "description": "Combined package for parking garage restoration: crack injection, joint replacement, striping, and a starter coating set.",
-      "collection": "garage",
-      "price": 24600,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0053",
-      "brand": "Pavora",
-      "equipmentType": "Restoration package",
-      "tradeTypes": [
-        "garage restoration",
-        "injection",
-        "striping",
-        "coatings"
-      ],
-      "contractorTypes": [
-        "parking garage",
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Injection, joint, coating, and striping kit for a parking garage bay",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Mixed",
-      "dimensions": "Freight pallet set",
-      "weightLbs": 2100,
-      "applications": [
-        "Parking garages",
-        "Plaza decks",
-        "Podiums"
-      ],
-      "intendedUsers": [
-        "Restoration contractors",
-        "Garage operators"
-      ],
-      "benefits": [
-        "One freight plan",
-        "Matched chemistries",
-        "Crew briefing"
-      ],
-      "included": [
-        "Injecta-PU",
-        "Joint-Saw 18",
-        "Joint-Fill Pump",
-        "Lotline Walk",
-        "Coating starter"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora restoration package equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "garage",
-        "package",
-        "restoration"
-      ],
-      "image": "/media/gear/polisher.jpg",
-      "monthly": 683
-    },
-    {
-      "id": "pv-054",
-      "handle": "pavora-deck-coat-rig",
-      "title": "Pavora Deck-Coat Rig",
-      "description": "Traffic-coating sprayer for waterproof membranes on garage decks and ramps.",
-      "collection": "garage",
-      "price": 9800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0054",
-      "brand": "Pavora",
-      "equipmentType": "Traffic coating sprayer",
-      "tradeTypes": [
-        "coatings",
-        "waterproofing"
-      ],
-      "contractorTypes": [
-        "parking garage",
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Plural sprayer for waterproof traffic coatings on garage decks",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "240V",
-      "dimensions": "Cart 36 in",
-      "weightLbs": 240,
-      "applications": [
-        "Garage decks",
-        "Plaza",
-        "Ramps"
-      ],
-      "intendedUsers": [
-        "Restoration contractors"
-      ],
-      "benefits": [
-        "Heated hoses",
-        "Ratio alarm",
-        "Flush"
-      ],
-      "included": [
-        "Sprayer",
-        "Hoses",
-        "Guns"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora traffic coating sprayer equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "coating",
-        "waterproof",
-        "garage"
-      ],
-      "image": "/media/gear/blaster.jpg",
-      "monthly": 272
-    },
-    {
-      "id": "pv-055",
-      "handle": "pavora-spall-patch-station",
-      "title": "Pavora Spall-Patch Station",
-      "description": "Spall station for overhead and deck patches that have to take traffic the next morning.",
-      "collection": "garage",
-      "price": 3600,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0055",
-      "brand": "Pavora",
-      "equipmentType": "Spall repair station",
-      "tradeTypes": [
-        "concrete repair"
-      ],
-      "contractorTypes": [
-        "parking garage",
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Mixer, guns, and form kits for overhead and deck spalls",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V",
-      "dimensions": "Station 32 in",
-      "weightLbs": 96,
-      "applications": [
-        "Overhead",
-        "Deck",
-        "Columns"
-      ],
-      "intendedUsers": [
-        "Restoration contractors"
-      ],
-      "benefits": [
-        "Overhead mix",
-        "Form kit",
-        "Fast set"
-      ],
-      "included": [
-        "Mixer",
-        "Guns",
-        "Forms"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora spall repair station equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "spall",
-        "patch",
-        "garage"
-      ],
-      "image": "/media/gear/px-spray.jpg",
-      "monthly": 100
-    },
-    {
-      "id": "pv-056",
-      "handle": "pavora-diamond-cup-set",
-      "title": "Pavora Diamond Cup Set",
-      "description": "Diamond cup set for planetary and edge grinders.",
-      "collection": "parts",
-      "price": 420,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0056",
-      "brand": "Pavora",
-      "equipmentType": "Diamond tooling",
-      "tradeTypes": [
-        "grinding"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Metal-bond cups for grind and coating removal",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Box",
-      "weightLbs": 8,
-      "applications": [
-        "Grind",
-        "Coating removal"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Matched grit",
-        "Segmented"
-      ],
-      "included": [
-        "6 cups"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora diamond tooling equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "diamond",
-        "cups"
-      ],
-      "image": "/media/gear/px-grinder.jpg",
-      "monthly": 12
-    },
-    {
-      "id": "pv-057",
-      "handle": "pavora-polish-pad-pack",
-      "title": "Pavora Polish Pad Pack",
-      "description": "Resin polish pads for the Mill and Polish-Pro series.",
-      "collection": "parts",
-      "price": 280,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0057",
-      "brand": "Pavora",
-      "equipmentType": "Polish pads",
-      "tradeTypes": [
-        "polishing"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Resin pads from 200 to 3000 grit",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Box",
-      "weightLbs": 6,
-      "applications": [
-        "Hone",
-        "Polish"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Grit labeled"
-      ],
-      "included": [
-        "Pad set"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora polish pads equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "pads",
-        "polish"
-      ],
-      "image": "/media/gear/us-tools.jpg",
-      "monthly": 8
-    },
-    {
-      "id": "pv-058",
-      "handle": "pavora-injection-packers",
-      "title": "Pavora Injection Packers",
-      "description": "Mechanical injection packers for epoxy and polyurethane.",
-      "collection": "parts",
-      "price": 160,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0058",
-      "brand": "Pavora",
-      "equipmentType": "Packers",
-      "tradeTypes": [
-        "injection"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Mechanical packers in three diameters",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Box",
-      "weightLbs": 4,
-      "applications": [
-        "Epoxy",
-        "PU"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Assorted"
-      ],
-      "included": [
-        "100 packers"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora packers equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "packers"
-      ],
-      "image": "/media/gear/px-tools2.jpg",
-      "monthly": 4
-    },
-    {
-      "id": "pv-059",
-      "handle": "pavora-liftfoam-cartridge",
-      "title": "Pavora Liftfoam Cartridge",
-      "description": "Polyurethane foam set for Liftfoam rigs.",
-      "collection": "parts",
-      "price": 540,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0059",
-      "brand": "Pavora",
-      "equipmentType": "Leveling foam",
-      "tradeTypes": [
-        "leveling"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Two-component foam for slab lift",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Drum pair",
-      "weightLbs": 88,
-      "applications": [
-        "Slab lift"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Consistent rise"
-      ],
-      "included": [
-        "A/B set"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora leveling foam equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "foam"
-      ],
-      "image": "/media/gear/px-indust.jpg",
-      "monthly": 15
-    },
-    {
-      "id": "pv-060",
-      "handle": "pavora-crack-sealant-box",
-      "title": "Pavora Crack Sealant Box",
-      "description": "Hot-pour crack sealant for Pavora melters.",
-      "collection": "parts",
-      "price": 210,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0060",
-      "brand": "Pavora",
-      "equipmentType": "Hot-pour sealant",
-      "tradeTypes": [
-        "crack sealing"
-      ],
-      "contractorTypes": [
-        "paving contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "DOT-grade hot-pour in 30-lb boxes",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Pallet box",
-      "weightLbs": 30,
-      "applications": [
-        "Lots",
-        "Streets"
-      ],
-      "intendedUsers": [
-        "Paving contractors",
-        "Property managers",
-        "Municipal crews"
-      ],
-      "benefits": [
-        "Even melt"
-      ],
-      "included": [
-        "30 lb"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora hot-pour sealant equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "sealant"
-      ],
-      "image": "/media/gear/px-grinder.jpg",
-      "monthly": 6
-    },
-    {
-      "id": "pv-061",
-      "handle": "pavora-sealcoat-drum",
-      "title": "Pavora Sealcoat Drum",
-      "description": "Sealcoat drum for Coat-Spray systems.",
-      "collection": "parts",
-      "price": 190,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0061",
-      "brand": "Pavora",
-      "equipmentType": "Asphalt sealer",
-      "tradeTypes": [
-        "sealcoating"
-      ],
-      "contractorTypes": [
-        "paving contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Refined-tar or asphalt emulsion drum",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "55 gal",
-      "weightLbs": 480,
-      "applications": [
-        "Lots"
-      ],
-      "intendedUsers": [
-        "Paving contractors",
-        "Property managers",
-        "Municipal crews"
-      ],
-      "benefits": [
-        "Sand-ready"
-      ],
-      "included": [
-        "Drum"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora asphalt sealer equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "sealer"
-      ],
-      "image": "/media/gear/us-tools.jpg",
-      "monthly": 5
-    },
-    {
-      "id": "pv-062",
-      "handle": "pavora-thermo-blocks",
-      "title": "Pavora Thermo Blocks",
-      "description": "Thermoplastic blocks for Thermark liners.",
-      "collection": "parts",
-      "price": 320,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0062",
-      "brand": "Pavora",
-      "equipmentType": "Thermoplastic",
-      "tradeTypes": [
-        "thermoplastic"
-      ],
-      "contractorTypes": [
-        "striping contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Preformed and bulk thermoplastic in white and yellow",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Carton",
-      "weightLbs": 50,
-      "applications": [
-        "Lines",
-        "Legends"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Colorfast"
-      ],
-      "included": [
-        "50 lb"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora thermoplastic equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "thermoplastic"
-      ],
-      "image": "/media/gear/px-tools2.jpg",
-      "monthly": 9
-    },
-    {
-      "id": "pv-063",
-      "handle": "pavora-glass-beads",
-      "title": "Pavora Glass Beads",
-      "description": "Drop-on glass beads for paint and thermoplastic.",
-      "collection": "parts",
-      "price": 85,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0063",
-      "brand": "Pavora",
-      "equipmentType": "Drop-on beads",
-      "tradeTypes": [
-        "thermoplastic",
-        "lot painting"
-      ],
-      "contractorTypes": [
-        "striping contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Type I glass beads for night visibility",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Bag",
-      "weightLbs": 50,
-      "applications": [
-        "Retroreflectivity"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Graded"
-      ],
-      "included": [
-        "50 lb bag"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora drop-on beads equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "beads"
-      ],
-      "image": "/media/gear/px-indust.jpg",
-      "monthly": 2
-    },
-    {
-      "id": "pv-064",
-      "handle": "pavora-soda-media",
-      "title": "Pavora Soda Media",
-      "description": "Soda blast media for Soda-Pro pots.",
-      "collection": "parts",
-      "price": 95,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0064",
-      "brand": "Pavora",
-      "equipmentType": "Bicarbonate media",
-      "tradeTypes": [
-        "soda blasting"
-      ],
-      "contractorTypes": [
-        "blasting contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Food-grade sodium bicarbonate blast media",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Bag",
-      "weightLbs": 50,
-      "applications": [
-        "Paint",
-        "Soot"
-      ],
-      "intendedUsers": [
-        "Blasting contractors",
-        "Industrial cleaners",
-        "Restoration crews"
-      ],
-      "benefits": [
-        "Low moisture"
-      ],
-      "included": [
-        "50 lb"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora bicarbonate media equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "soda",
-        "media"
-      ],
-      "image": "/media/gear/px-grinder.jpg",
-      "monthly": 3
-    },
-    {
-      "id": "pv-065",
-      "handle": "pavora-dry-ice-order",
-      "title": "Pavora Dry-Ice Order",
-      "description": "Dry-ice pellet order for Cryo blasters.",
-      "collection": "parts",
-      "price": 240,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0065",
-      "brand": "Pavora",
-      "equipmentType": "CO₂ pellets",
-      "tradeTypes": [
-        "dry-ice blasting"
-      ],
-      "contractorTypes": [
-        "blasting contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Pellets delivered when a pelletizer is not on the truck",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Insulated bin",
-      "weightLbs": 200,
-      "applications": [
-        "Blasting"
-      ],
-      "intendedUsers": [
-        "Blasting contractors",
-        "Industrial cleaners",
-        "Restoration crews"
-      ],
-      "benefits": [
-        "3 mm"
-      ],
-      "included": [
-        "200 lb"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora co₂ pellets equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "dry ice"
-      ],
-      "image": "/media/gear/us-tools.jpg",
-      "monthly": 7
-    },
-    {
-      "id": "pv-066",
-      "handle": "pavora-lot-paint-pail",
-      "title": "Pavora Lot Paint Pail",
-      "description": "Traffic paint for Lotline stripers.",
-      "collection": "parts",
-      "price": 78,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0066",
-      "brand": "Pavora",
-      "equipmentType": "Traffic paint",
-      "tradeTypes": [
-        "parking lot painting"
-      ],
-      "contractorTypes": [
-        "striping contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Fast-dry acrylic in white, yellow, and blue",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "5 gal",
-      "weightLbs": 55,
-      "applications": [
-        "Stalls",
-        "Arrows"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Fast dry"
-      ],
-      "included": [
-        "5 gal"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora traffic paint equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "paint"
-      ],
-      "image": "/media/gear/px-tools2.jpg",
-      "monthly": 2
-    },
-    {
-      "id": "pv-067",
-      "handle": "pavora-hepa-filters",
-      "title": "Pavora HEPA Filters",
-      "description": "Replacement HEPA and primary filters.",
-      "collection": "parts",
-      "price": 140,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0067",
-      "brand": "Pavora",
-      "equipmentType": "Filters",
-      "tradeTypes": [
-        "dust control"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 0,
-      "financing": false,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Primary and HEPA set for Vac Prop extractors",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "None",
-      "dimensions": "Box",
-      "weightLbs": 5,
-      "applications": [
-        "Grinders"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Sealed"
-      ],
-      "included": [
-        "Filter set"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora filters equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "hepa",
-        "filter"
-      ],
-      "image": "/media/gear/px-indust.jpg",
-      "monthly": 4
-    },
-    {
-      "id": "pv-068",
-      "handle": "pavora-concrete-floor-crew",
-      "title": "Pavora Concrete Floor Crew",
-      "description": "First-crew package for grind and polish: planetary, edge, HEPA vac, and starter diamonds.",
-      "collection": "packages",
-      "price": 21400,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0068",
-      "brand": "Pavora",
-      "equipmentType": "Crew package",
-      "tradeTypes": [
-        "grinding",
-        "polishing"
-      ],
-      "contractorTypes": [
-        "concrete contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Grinder, edge, vac, and cups for a first polish crew",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Mixed",
-      "dimensions": "Freight set",
-      "weightLbs": 820,
-      "applications": [
-        "Commercial floors"
-      ],
-      "intendedUsers": [
-        "Concrete contractors",
-        "Flooring crews",
-        "Parking garage restorers"
-      ],
-      "benefits": [
-        "Matched dust path",
-        "One freight"
-      ],
-      "included": [
-        "Mill-27",
-        "Dens-7",
-        "HEPA-Vac",
-        "Cup set"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora crew package equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "package",
-        "floor"
-      ],
-      "image": "/media/gear/polisher.jpg",
-      "monthly": 594
-    },
-    {
-      "id": "pv-069",
-      "handle": "pavora-lot-maintenance-crew",
-      "title": "Pavora Lot Maintenance Crew",
-      "description": "Lot-maintenance package: melt, sealcoat, and stripe as one freight plan.",
-      "collection": "packages",
-      "price": 16800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0069",
-      "brand": "Pavora",
-      "equipmentType": "Crew package",
-      "tradeTypes": [
-        "crack sealing",
-        "sealcoating",
-        "lot painting"
-      ],
-      "contractorTypes": [
-        "paving contractor",
-        "striping contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Crack seal, sealcoat, and striping for property-management routes",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Mixed",
-      "dimensions": "Freight set",
-      "weightLbs": 2600,
-      "applications": [
-        "HOA",
-        "Retail lots"
-      ],
-      "intendedUsers": [
-        "Paving contractors",
-        "Property managers",
-        "Municipal crews"
-      ],
-      "benefits": [
-        "Seal then stripe",
-        "One invoice"
-      ],
-      "included": [
-        "Melt-120",
-        "Coat-Spray 300",
-        "Lotline Walk",
-        "Stencils"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora crew package equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": true,
-      "tags": [
-        "package",
-        "lot"
-      ],
-      "image": "/media/gear/blaster.jpg",
-      "monthly": 467
-    },
-    {
-      "id": "pv-070",
-      "handle": "pavora-marking-crew",
-      "title": "Pavora Marking Crew",
-      "description": "Marking package: remove the old legend, lay thermoplastic, drop beads.",
-      "collection": "packages",
-      "price": 26800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0070",
-      "brand": "Pavora",
-      "equipmentType": "Crew package",
-      "tradeTypes": [
-        "thermoplastic",
-        "marking removal"
-      ],
-      "contractorTypes": [
-        "striping contractor",
-        "municipal"
-      ],
-      "useCase": "municipal",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Thermoplastic liner plus line mill for cities that rewrite intersections",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Mixed",
-      "dimensions": "Freight set",
-      "weightLbs": 980,
-      "applications": [
-        "Intersections",
-        "Schools"
-      ],
-      "intendedUsers": [
-        "Striping contractors",
-        "Parking lot painters",
-        "DOT subcontractors"
-      ],
-      "benefits": [
-        "Remove then apply"
-      ],
-      "included": [
-        "Thermark Handliner",
-        "Stripe-Mill 12",
-        "Beads",
-        "Dies"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora crew package equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "package",
-        "marking"
-      ],
-      "image": "/media/gear/px-spray.jpg",
-      "monthly": 744
-    },
-    {
-      "id": "pv-071",
-      "handle": "pavora-blast-shop-crew",
-      "title": "Pavora Blast Shop Crew",
-      "description": "Shop blasting package with recovery so soda stays in the drum.",
-      "collection": "packages",
-      "price": 19800,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0071",
-      "brand": "Pavora",
-      "equipmentType": "Crew package",
-      "tradeTypes": [
-        "soda blasting"
-      ],
-      "contractorTypes": [
-        "blasting contractor",
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "Soda pot, recovery vac, and media for a restoration shop",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Mixed",
-      "dimensions": "Freight set",
-      "weightLbs": 420,
-      "applications": [
-        "Shop",
-        "Fire restoration"
-      ],
-      "intendedUsers": [
-        "Blasting contractors",
-        "Industrial cleaners",
-        "Restoration crews"
-      ],
-      "benefits": [
-        "Contain the media"
-      ],
-      "included": [
-        "Soda-Pro 250",
-        "Media-Vac",
-        "Soda media"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora crew package equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "package",
-        "blast"
-      ],
-      "image": "/media/gear/px-crane.jpg",
-      "monthly": 550
-    },
-    {
-      "id": "pv-072",
-      "handle": "pavora-roof-intel-crew",
-      "title": "Pavora Roof Intel Crew",
-      "description": "Roof intelligence package: fly, scan, confirm moisture, deliver the PDF.",
-      "collection": "packages",
-      "price": 17200,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0072",
-      "brand": "Pavora",
-      "equipmentType": "Crew package",
-      "tradeTypes": [
-        "drone inspection",
-        "thermal"
-      ],
-      "contractorTypes": [
-        "roofing contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": true,
-      "inStock": true,
-      "highlight": "RTK drone, thermal camera, and report station for roofing companies",
-      "leadTime": "Quoted lead time, typically 2–5 weeks",
-      "power": "Battery",
-      "dimensions": "Two cases",
-      "weightLbs": 28,
-      "applications": [
-        "Commercial roofs"
-      ],
-      "intendedUsers": [
-        "Roofing contractors",
-        "Building inspectors",
-        "Property managers"
-      ],
-      "benefits": [
-        "Photo + thermal + PDF"
-      ],
-      "included": [
-        "Skydeck RTK",
-        "Thermascan Pro",
-        "Report Station"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora crew package equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "package",
-        "roof"
-      ],
-      "image": "/media/gear/polisher.jpg",
-      "monthly": 478
-    },
-    {
-      "id": "pv-073",
-      "handle": "pavora-envelope-crew",
-      "title": "Pavora Envelope Crew",
-      "description": "Building-envelope package for commercial caulking and joint sealing.",
-      "collection": "packages",
-      "price": 9400,
-      "compareAtPrice": null,
-      "currency": "USD",
-      "sku": "PV-0073",
-      "brand": "Pavora",
-      "equipmentType": "Crew package",
-      "tradeTypes": [
-        "caulking",
-        "expansion joints"
-      ],
-      "contractorTypes": [
-        "restoration contractor"
-      ],
-      "useCase": "commercial",
-      "warrantyYears": 2,
-      "financing": true,
-      "quoteOnly": false,
-      "inStock": true,
-      "highlight": "Facade pump, prep grinder, and bulk guns for joint programs",
-      "leadTime": "Ships in 5–12 business days",
-      "power": "120V",
-      "dimensions": "Freight set",
-      "weightLbs": 160,
-      "applications": [
-        "Facades",
-        "Windows"
-      ],
-      "intendedUsers": [
-        "Restoration contractors",
-        "Glazing crews",
-        "General contractors"
-      ],
-      "benefits": [
-        "Prep then pump"
-      ],
-      "included": [
-        "Facade Pump",
-        "Joint-Prep Grinder",
-        "Seal-Gun Bulk"
-      ],
-      "installation": "Yard delivery. Commissioning video included. On-site start-up quoted for trailers and ride-ons.",
-      "training": "Remote crew walkthrough included. OSHA-aware jobsite briefing available on packages.",
-      "shipping": "Commercial freight, contiguous U.S. Liftgate on request. Alaska/Hawaii quoted.",
-      "replacementParts": "Wear parts stocked for 7 years from purchase date.",
-      "faqs": [
-        {
-          "q": "Is this commercial-duty?",
-          "a": "Yes. Pavora crew package equipment is specified for contractor crews, not weekend rental-counter toys."
-        },
-        {
-          "q": "Do you train the crew?",
-          "a": "Remote start-up is included. On-site days are quoted for packages and quote-only rigs."
-        },
-        {
-          "q": "What about freight?",
-          "a": "Commercial freight in the contiguous U.S. Liftgate on request. Trailers and ride-ons ship crated."
-        }
-      ],
-      "featured": false,
-      "tags": [
-        "package",
-        "envelope"
-      ],
-      "image": "/media/gear/blaster.jpg",
-      "monthly": 261
     }
   ]
 }

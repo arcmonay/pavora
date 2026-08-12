@@ -36,8 +36,8 @@ export default async function PackagePage({ params }: PageProps<"/business/[slug
         <Link href={`/quote?machine=${pack.slug}`} className="btn btn-signal">
           Request a quote
         </Link>
-        <Link href="/shop?collection=packages" className="btn btn-ghost">
-          Shop packages
+        <Link href="/shop" className="btn btn-ghost">
+          Shop machinery
         </Link>
       </div>
     </section>

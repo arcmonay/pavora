@@ -27,11 +27,11 @@ const mono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Pavora — Contractor Machinery for Concrete, Asphalt & Roofs",
+    default: "Pavora — Contractor Surface Machinery",
     template: "%s · Pavora",
   },
   description:
-    "Commercial equipment for concrete grinding, crack injection, slab leveling, asphalt sealing, thermoplastic marking, blasting, laser cleaning, pressure washing, drone roof inspections, and parking garage restoration.",
+    "Commercial equipment for concrete grinding, crack injection, asphalt crack sealing, blasting, laser cleaning, pressure washing, lot painting, and caulking.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

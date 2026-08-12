@@ -13,9 +13,9 @@ export default function Home() {
       <section className="hero">
         <div className="hero-copy">
           <p className="kicker">Trade 00 · Surface machinery</p>
-          <h1>Machinery for the trades that keep slabs, lots, and roofs in service.</h1>
+          <h1>The machine in the photo is the machine on the invoice.</h1>
           <p>
-            Concrete grinding, crack injection, foam leveling, asphalt sealing, thermoplastic marking, blasting, laser cleaning, lot painting, drone roof intel, and parking garage restoration — specified for contractor crews.
+            Planetary grinders, injection pumps, blast pots, laser cleaners, pressure washers, lot stripers, crack kettles, and dual caulk guns — each listing shows that unit.
           </p>
           <div className="cta-row">
             <Link href="/shop" className="btn btn-signal">
@@ -28,8 +28,8 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <Image
-            src="/media/gear/polisher.jpg"
-            alt="Walk-behind concrete floor machine on a commercial slab"
+            src="/media/catalog/laser.webp"
+            alt="Handheld fiber laser cleaning cart"
             width={1400}
             height={1600}
             priority
@@ -68,8 +68,8 @@ export default function Home() {
             <p className="kicker">In the yard</p>
             <h2 className="display text-4xl">Crew favorites</h2>
           </div>
-          <Link href="/shop?collection=parts" className="btn btn-ghost">
-            Wear parts
+          <Link href="/shop" className="btn btn-ghost">
+            All machines
           </Link>
         </div>
         <ProductGrid products={sellers} />

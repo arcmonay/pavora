@@ -5,15 +5,15 @@ export function Footer() {
     <footer className="yard-foot">
       <div>
         <strong>Pavora</strong>
-        Contractor machinery for concrete, asphalt, blasting, roofs, and parking garage restoration. Commercial equipment, wear parts, and crew packages.
+        Contractor machinery for grinding, injection, blasting, laser cleaning, lot painting, and caulking.
       </div>
       <div>
         <strong>Trades</strong>
         <Link href="/departments/grinding">Grinding & polishing</Link>
-        <Link href="/departments/thermoplastic">Thermoplastic marking</Link>
         <Link href="/departments/laser">Laser cleaning</Link>
+        <Link href="/departments/soda">Blasting</Link>
         <Link href="/departments/lot-painting">Parking lot painting</Link>
-        <Link href="/departments/garage">Garage restoration</Link>
+        <Link href="/departments/caulking">Caulking</Link>
       </div>
       <div>
         <strong>Crews</strong>

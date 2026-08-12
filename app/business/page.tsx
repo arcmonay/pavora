@@ -10,7 +10,7 @@ export default function BusinessPage() {
       <p className="kicker">Crew solutions</p>
       <h1 className="display text-4xl mt-2">Spec a crew</h1>
       <p className="lede mt-3 mb-10">
-        Pavora outfits first trucks and second crews. Packages combine machines, wear parts, and freight into one invoice for grind, lot maintenance, marking, blasting, roof intel, envelope, and garage restoration.
+        Pavora outfits first trucks and second crews. Packages combine the machines you actually see in the shop — crack sealer plus striper, or blast pot plus recovery.
       </p>
       <div className="grid-4">
         {packages.map((pack) => (
