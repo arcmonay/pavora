@@ -27,26 +27,34 @@ const collections = [
 ];
 
 const media = {
-  grinding: "/media/grinding.jpg",
-  injection: "/media/injection.jpg",
-  leveling: "/media/leveling.jpg",
-  "crack-sealing": "/media/asphalt.jpg",
-  sealcoating: "/media/sealcoat.jpg",
-  thermoplastic: "/media/marking.jpg",
-  "marking-removal": "/media/removal.jpg",
-  "dry-ice": "/media/blast.jpg",
-  soda: "/media/soda.jpg",
-  laser: "/media/laser.jpg",
-  "pressure-wash": "/media/wash.jpg",
-  "lot-painting": "/media/lot.jpg",
-  drone: "/media/drone.jpg",
-  thermal: "/media/thermal.jpg",
-  "expansion-joints": "/media/joints.jpg",
-  caulking: "/media/caulk.jpg",
-  garage: "/media/garage.jpg",
-  parts: "/media/parts.jpg",
-  packages: "/media/hero.jpg",
+  grinding: ["/media/gear/polisher.jpg", "/media/gear/px-grinder.jpg", "/media/gear/px-sparks.jpg"],
+  injection: ["/media/gear/us-tools.jpg", "/media/gear/px-plant.jpg", "/media/gear/px-cnc.jpg"],
+  leveling: ["/media/gear/us-tools.jpg", "/media/gear/px-plant.jpg", "/media/gear/px-tools2.jpg"],
+  "crack-sealing": ["/media/gear/px-spray.jpg", "/media/gear/px-plant.jpg", "/media/gear/px-spray2.jpg"],
+  sealcoating: ["/media/gear/px-spray.jpg", "/media/gear/px-spray2.jpg", "/media/gear/px-wash.jpg"],
+  thermoplastic: ["/media/gear/px-spray.jpg", "/media/gear/px-wash2.jpg", "/media/gear/px-spray2.jpg"],
+  "marking-removal": ["/media/gear/px-sparks.jpg", "/media/gear/px-grinder.jpg", "/media/gear/polisher.jpg"],
+  "dry-ice": ["/media/gear/blaster.jpg", "/media/gear/px-sparks.jpg", "/media/gear/px-cnc.jpg"],
+  soda: ["/media/gear/blaster.jpg", "/media/gear/px-grinder.jpg", "/media/gear/px-sparks.jpg"],
+  laser: ["/media/gear/us-cnc.jpg", "/media/gear/px-cnc.jpg", "/media/gear/px-sparks.jpg", "/media/gear/us-elec.jpg"],
+  "pressure-wash": ["/media/gear/px-wash.jpg", "/media/gear/px-wash2.jpg", "/media/gear/px-spray2.jpg"],
+  "lot-painting": ["/media/gear/px-spray.jpg", "/media/gear/px-spray2.jpg", "/media/gear/px-wash.jpg"],
+  drone: ["/media/gear/px-drone2.jpg", "/media/gear/px-drone.jpg", "/media/gear/us-drone.jpg"],
+  thermal: ["/media/gear/us-cnc.jpg", "/media/gear/us-elec.jpg", "/media/gear/px-indust.jpg"],
+  "expansion-joints": ["/media/gear/px-sparks.jpg", "/media/gear/polisher.jpg", "/media/gear/px-grinder.jpg"],
+  caulking: ["/media/gear/px-spray.jpg", "/media/gear/us-tools.jpg", "/media/gear/px-tools2.jpg"],
+  garage: ["/media/gear/polisher.jpg", "/media/gear/blaster.jpg", "/media/gear/px-spray.jpg", "/media/gear/px-weld.jpg"],
+  parts: ["/media/gear/px-grinder.jpg", "/media/gear/us-tools.jpg", "/media/gear/px-tools2.jpg", "/media/gear/px-indust.jpg"],
+  packages: ["/media/gear/polisher.jpg", "/media/gear/blaster.jpg", "/media/gear/px-spray.jpg", "/media/gear/px-crane.jpg"],
 };
+
+const mediaIndex = {};
+function nextImage(collection) {
+  const list = media[collection] || ["/media/gear/polisher.jpg"];
+  const i = mediaIndex[collection] || 0;
+  mediaIndex[collection] = i + 1;
+  return list[i % list.length];
+}
 
 const faqs = (topic) => [
   { q: "Is this commercial-duty?", a: `Yes. Pavora ${topic} equipment is specified for contractor crews, not weekend rental-counter toys.` },
@@ -98,7 +106,7 @@ function add(p) {
     faqs: faqs(p.equipmentType.toLowerCase()),
     featured: Boolean(p.featured),
     tags: p.tags,
-    image: media[p.collection] || "/media/hero.jpg",
+    image: p.image || nextImage(p.collection),
     monthly,
   });
 }

@@ -2,25 +2,25 @@ import Image from "next/image";
 import type { Product } from "@/lib/types";
 
 const fallback: Record<string, string> = {
-  grinding: "/media/grinding.jpg",
-  injection: "/media/injection.jpg",
-  leveling: "/media/leveling.jpg",
-  "crack-sealing": "/media/asphalt.jpg",
-  sealcoating: "/media/sealcoat.jpg",
-  thermoplastic: "/media/marking.jpg",
-  "marking-removal": "/media/removal.jpg",
-  "dry-ice": "/media/blast.jpg",
-  soda: "/media/soda.jpg",
-  laser: "/media/laser.jpg",
-  "pressure-wash": "/media/wash.jpg",
-  "lot-painting": "/media/lot.jpg",
-  drone: "/media/drone.jpg",
-  thermal: "/media/thermal.jpg",
-  "expansion-joints": "/media/joints.jpg",
-  caulking: "/media/caulk.jpg",
-  garage: "/media/garage.jpg",
-  parts: "/media/parts.jpg",
-  packages: "/media/hero.jpg",
+  grinding: "/media/gear/polisher.jpg",
+  injection: "/media/gear/us-tools.jpg",
+  leveling: "/media/gear/us-tools.jpg",
+  "crack-sealing": "/media/gear/px-spray.jpg",
+  sealcoating: "/media/gear/px-spray.jpg",
+  thermoplastic: "/media/gear/px-spray.jpg",
+  "marking-removal": "/media/gear/px-sparks.jpg",
+  "dry-ice": "/media/gear/blaster.jpg",
+  soda: "/media/gear/blaster.jpg",
+  laser: "/media/gear/px-sparks.jpg",
+  "pressure-wash": "/media/gear/px-wash.jpg",
+  "lot-painting": "/media/gear/px-spray.jpg",
+  drone: "/media/gear/px-drone2.jpg",
+  thermal: "/media/gear/us-cnc.jpg",
+  "expansion-joints": "/media/gear/px-grinder.jpg",
+  caulking: "/media/gear/px-spray.jpg",
+  garage: "/media/gear/polisher.jpg",
+  parts: "/media/gear/px-grinder.jpg",
+  packages: "/media/gear/px-crane.jpg",
 };
 
 export function ProductVisual({
@@ -32,7 +32,7 @@ export function ProductVisual({
   priority?: boolean;
   className?: string;
 }) {
-  const src = product.image || fallback[product.collection] || "/media/hero.jpg";
+  const src = product.image || fallback[product.collection] || "/media/gear/polisher.jpg";
   return (
     <Image
       src={src}

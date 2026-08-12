@@ -1,6 +1,6 @@
 {
   "brand": "Pavora",
-  "generatedAt": "2026-08-12T22:41:55.550Z",
+  "generatedAt": "2026-08-12T23:08:09.997Z",
   "collections": [
     {
       "handle": "grinding",
@@ -197,7 +197,7 @@
         "concrete",
         "dust"
       ],
-      "image": "/media/grinding.jpg",
+      "image": "/media/gear/polisher.jpg",
       "monthly": 356
     },
     {
@@ -273,7 +273,7 @@
         "grinder",
         "concrete"
       ],
-      "image": "/media/grinding.jpg",
+      "image": "/media/gear/px-grinder.jpg",
       "monthly": 117
     },
     {
@@ -349,7 +349,7 @@
         "burnish",
         "concrete"
       ],
-      "image": "/media/grinding.jpg",
+      "image": "/media/gear/px-sparks.jpg",
       "monthly": 247
     },
     {
@@ -426,7 +426,7 @@
         "silica",
         "vac"
       ],
-      "image": "/media/grinding.jpg",
+      "image": "/media/gear/polisher.jpg",
       "monthly": 94
     },
     {
@@ -505,7 +505,7 @@
         "injection",
         "crack"
       ],
-      "image": "/media/injection.jpg",
+      "image": "/media/gear/us-tools.jpg",
       "monthly": 156
     },
     {
@@ -584,7 +584,7 @@
         "leak",
         "injection"
       ],
-      "image": "/media/injection.jpg",
+      "image": "/media/gear/px-plant.jpg",
       "monthly": 133
     },
     {
@@ -660,7 +660,7 @@
         "ports",
         "kit"
       ],
-      "image": "/media/injection.jpg",
+      "image": "/media/gear/px-cnc.jpg",
       "monthly": 25
     },
     {
@@ -738,7 +738,7 @@
         "injection",
         "garage"
       ],
-      "image": "/media/injection.jpg",
+      "image": "/media/gear/us-tools.jpg",
       "monthly": 311
     },
     {
@@ -817,7 +817,7 @@
         "leveling",
         "slab jacking"
       ],
-      "image": "/media/leveling.jpg",
+      "image": "/media/gear/us-tools.jpg",
       "monthly": 525
     },
     {
@@ -893,7 +893,7 @@
         "ports",
         "leveling"
       ],
-      "image": "/media/leveling.jpg",
+      "image": "/media/gear/px-plant.jpg",
       "monthly": 89
     },
     {
@@ -967,7 +967,7 @@
         "gun",
         "tips"
       ],
-      "image": "/media/leveling.jpg",
+      "image": "/media/gear/px-tools2.jpg",
       "monthly": 40
     },
     {
@@ -1045,7 +1045,7 @@
         "crack",
         "asphalt"
       ],
-      "image": "/media/asphalt.jpg",
+      "image": "/media/gear/px-spray.jpg",
       "monthly": 272
     },
     {
@@ -1120,7 +1120,7 @@
         "overband",
         "asphalt"
       ],
-      "image": "/media/asphalt.jpg",
+      "image": "/media/gear/px-plant.jpg",
       "monthly": 58
     },
     {
@@ -1197,7 +1197,7 @@
         "kettle",
         "municipal"
       ],
-      "image": "/media/asphalt.jpg",
+      "image": "/media/gear/px-spray2.jpg",
       "monthly": 456
     },
     {
@@ -1275,7 +1275,7 @@
         "spray",
         "asphalt"
       ],
-      "image": "/media/sealcoat.jpg",
+      "image": "/media/gear/px-spray.jpg",
       "monthly": 200
     },
     {
@@ -1350,7 +1350,7 @@
         "mix",
         "sealcoat"
       ],
-      "image": "/media/sealcoat.jpg",
+      "image": "/media/gear/px-spray2.jpg",
       "monthly": 150
     },
     {
@@ -1423,7 +1423,7 @@
         "squeegee",
         "kit"
       ],
-      "image": "/media/sealcoat.jpg",
+      "image": "/media/gear/px-wash.jpg",
       "monthly": 19
     },
     {
@@ -1502,7 +1502,7 @@
         "crosswalk",
         "bike lane"
       ],
-      "image": "/media/marking.jpg",
+      "image": "/media/gear/px-spray.jpg",
       "monthly": 394
     },
     {
@@ -1579,7 +1579,7 @@
         "thermoplastic",
         "highway"
       ],
-      "image": "/media/marking.jpg",
+      "image": "/media/gear/px-wash2.jpg",
       "monthly": 1167
     },
     {
@@ -1654,7 +1654,7 @@
         "beads",
         "retroreflectivity"
       ],
-      "image": "/media/marking.jpg",
+      "image": "/media/gear/px-spray2.jpg",
       "monthly": 108
     },
     {
@@ -1731,7 +1731,7 @@
         "grind",
         "lines"
       ],
-      "image": "/media/removal.jpg",
+      "image": "/media/gear/px-sparks.jpg",
       "monthly": 239
     },
     {
@@ -1809,7 +1809,7 @@
         "removal",
         "uHP"
       ],
-      "image": "/media/removal.jpg",
+      "image": "/media/gear/px-grinder.jpg",
       "monthly": 597
     },
     {
@@ -1886,7 +1886,7 @@
         "erase",
         "garage"
       ],
-      "image": "/media/removal.jpg",
+      "image": "/media/gear/polisher.jpg",
       "monthly": 311
     },
     {
@@ -1965,7 +1965,7 @@
         "co2",
         "non-abrasive"
       ],
-      "image": "/media/blast.jpg",
+      "image": "/media/gear/blaster.jpg",
       "monthly": 467
     },
     {
@@ -2038,7 +2038,7 @@
         "hopper",
         "pellets"
       ],
-      "image": "/media/blast.jpg",
+      "image": "/media/gear/px-sparks.jpg",
       "monthly": 117
     },
     {
@@ -2111,7 +2111,7 @@
         "pelletizer",
         "dry ice"
       ],
-      "image": "/media/blast.jpg",
+      "image": "/media/gear/px-cnc.jpg",
       "monthly": 272
     },
     {
@@ -2190,7 +2190,7 @@
         "paint removal",
         "blast"
       ],
-      "image": "/media/soda.jpg",
+      "image": "/media/gear/blaster.jpg",
       "monthly": 178
     },
     {
@@ -2263,7 +2263,7 @@
         "soda",
         "compact"
       ],
-      "image": "/media/soda.jpg",
+      "image": "/media/gear/px-grinder.jpg",
       "monthly": 58
     },
     {
@@ -2339,7 +2339,7 @@
         "recovery",
         "soda"
       ],
-      "image": "/media/soda.jpg",
+      "image": "/media/gear/px-sparks.jpg",
       "monthly": 133
     },
     {
@@ -2418,7 +2418,7 @@
         "rust",
         "cleaning"
       ],
-      "image": "/media/laser.jpg",
+      "image": "/media/gear/us-cnc.jpg",
       "monthly": 792
     },
     {
@@ -2493,7 +2493,7 @@
         "laser",
         "handheld"
       ],
-      "image": "/media/laser.jpg",
+      "image": "/media/gear/px-cnc.jpg",
       "monthly": 344
     },
     {
@@ -2568,7 +2568,7 @@
         "laser",
         "cart"
       ],
-      "image": "/media/laser.jpg",
+      "image": "/media/gear/px-sparks.jpg",
       "monthly": 525
     },
     {
@@ -2646,7 +2646,7 @@
         "hot water",
         "trailer"
       ],
-      "image": "/media/wash.jpg",
+      "image": "/media/gear/px-wash.jpg",
       "monthly": 247
     },
     {
@@ -2719,7 +2719,7 @@
         "hot",
         "industrial"
       ],
-      "image": "/media/wash.jpg",
+      "image": "/media/gear/px-wash2.jpg",
       "monthly": 311
     },
     {
@@ -2792,7 +2792,7 @@
         "surface cleaner",
         "sidewalk"
       ],
-      "image": "/media/wash.jpg",
+      "image": "/media/gear/px-spray2.jpg",
       "monthly": 40
     },
     {
@@ -2865,7 +2865,7 @@
         "indoor",
         "wash"
       ],
-      "image": "/media/wash.jpg",
+      "image": "/media/gear/px-wash.jpg",
       "monthly": 89
     },
     {
@@ -2945,7 +2945,7 @@
         "parking lot",
         "paint"
       ],
-      "image": "/media/lot.jpg",
+      "image": "/media/gear/px-spray.jpg",
       "monthly": 150
     },
     {
@@ -3021,7 +3021,7 @@
         "lot",
         "paint"
       ],
-      "image": "/media/lot.jpg",
+      "image": "/media/gear/px-spray2.jpg",
       "monthly": 517
     },
     {
@@ -3096,7 +3096,7 @@
         "ada",
         "arrows"
       ],
-      "image": "/media/lot.jpg",
+      "image": "/media/gear/px-wash.jpg",
       "monthly": 25
     },
     {
@@ -3171,7 +3171,7 @@
         "curb",
         "paint"
       ],
-      "image": "/media/lot.jpg",
+      "image": "/media/gear/px-spray.jpg",
       "monthly": 78
     },
     {
@@ -3249,7 +3249,7 @@
         "rtk",
         "roof"
       ],
-      "image": "/media/drone.jpg",
+      "image": "/media/gear/px-drone2.jpg",
       "monthly": 256
     },
     {
@@ -3327,7 +3327,7 @@
         "thermal",
         "leak"
       ],
-      "image": "/media/drone.jpg",
+      "image": "/media/gear/px-drone.jpg",
       "monthly": 411
     },
     {
@@ -3403,7 +3403,7 @@
         "laptop",
         "roof"
       ],
-      "image": "/media/drone.jpg",
+      "image": "/media/gear/us-drone.jpg",
       "monthly": 58
     },
     {
@@ -3481,7 +3481,7 @@
         "thermal",
         "moisture"
       ],
-      "image": "/media/thermal.jpg",
+      "image": "/media/gear/us-cnc.jpg",
       "monthly": 217
     },
     {
@@ -3554,7 +3554,7 @@
         "moisture",
         "meter"
       ],
-      "image": "/media/thermal.jpg",
+      "image": "/media/gear/us-elec.jpg",
       "monthly": 18
     },
     {
@@ -3628,7 +3628,7 @@
         "infrared",
         "roof"
       ],
-      "image": "/media/thermal.jpg",
+      "image": "/media/gear/px-indust.jpg",
       "monthly": 344
     },
     {
@@ -3705,7 +3705,7 @@
         "joint",
         "garage"
       ],
-      "image": "/media/joints.jpg",
+      "image": "/media/gear/px-sparks.jpg",
       "monthly": 178
     },
     {
@@ -3782,7 +3782,7 @@
         "sealant",
         "joint"
       ],
-      "image": "/media/joints.jpg",
+      "image": "/media/gear/polisher.jpg",
       "monthly": 117
     },
     {
@@ -3857,7 +3857,7 @@
         "backer",
         "primer"
       ],
-      "image": "/media/joints.jpg",
+      "image": "/media/gear/px-grinder.jpg",
       "monthly": 50
     },
     {
@@ -3934,7 +3934,7 @@
         "bulk",
         "facade"
       ],
-      "image": "/media/caulk.jpg",
+      "image": "/media/gear/px-spray.jpg",
       "monthly": 25
     },
     {
@@ -4011,7 +4011,7 @@
         "pump",
         "silicone"
       ],
-      "image": "/media/caulk.jpg",
+      "image": "/media/gear/us-tools.jpg",
       "monthly": 150
     },
     {
@@ -4086,7 +4086,7 @@
         "grinder",
         "joint"
       ],
-      "image": "/media/caulk.jpg",
+      "image": "/media/gear/px-tools2.jpg",
       "monthly": 58
     },
     {
@@ -4166,7 +4166,7 @@
         "package",
         "restoration"
       ],
-      "image": "/media/garage.jpg",
+      "image": "/media/gear/polisher.jpg",
       "monthly": 683
     },
     {
@@ -4241,7 +4241,7 @@
         "waterproof",
         "garage"
       ],
-      "image": "/media/garage.jpg",
+      "image": "/media/gear/blaster.jpg",
       "monthly": 272
     },
     {
@@ -4315,7 +4315,7 @@
         "patch",
         "garage"
       ],
-      "image": "/media/garage.jpg",
+      "image": "/media/gear/px-spray.jpg",
       "monthly": 100
     },
     {
@@ -4385,7 +4385,7 @@
         "diamond",
         "cups"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/px-grinder.jpg",
       "monthly": 12
     },
     {
@@ -4454,7 +4454,7 @@
         "pads",
         "polish"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/us-tools.jpg",
       "monthly": 8
     },
     {
@@ -4522,7 +4522,7 @@
       "tags": [
         "packers"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/px-tools2.jpg",
       "monthly": 4
     },
     {
@@ -4589,7 +4589,7 @@
       "tags": [
         "foam"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/px-indust.jpg",
       "monthly": 15
     },
     {
@@ -4657,7 +4657,7 @@
       "tags": [
         "sealant"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/px-grinder.jpg",
       "monthly": 6
     },
     {
@@ -4724,7 +4724,7 @@
       "tags": [
         "sealer"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/us-tools.jpg",
       "monthly": 5
     },
     {
@@ -4792,7 +4792,7 @@
       "tags": [
         "thermoplastic"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/px-tools2.jpg",
       "monthly": 9
     },
     {
@@ -4860,7 +4860,7 @@
       "tags": [
         "beads"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/px-indust.jpg",
       "monthly": 2
     },
     {
@@ -4929,7 +4929,7 @@
         "soda",
         "media"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/px-grinder.jpg",
       "monthly": 3
     },
     {
@@ -4996,7 +4996,7 @@
       "tags": [
         "dry ice"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/us-tools.jpg",
       "monthly": 7
     },
     {
@@ -5064,7 +5064,7 @@
       "tags": [
         "paint"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/px-tools2.jpg",
       "monthly": 2
     },
     {
@@ -5132,7 +5132,7 @@
         "hepa",
         "filter"
       ],
-      "image": "/media/parts.jpg",
+      "image": "/media/gear/px-indust.jpg",
       "monthly": 4
     },
     {
@@ -5205,7 +5205,7 @@
         "package",
         "floor"
       ],
-      "image": "/media/hero.jpg",
+      "image": "/media/gear/polisher.jpg",
       "monthly": 594
     },
     {
@@ -5281,7 +5281,7 @@
         "package",
         "lot"
       ],
-      "image": "/media/hero.jpg",
+      "image": "/media/gear/blaster.jpg",
       "monthly": 467
     },
     {
@@ -5355,7 +5355,7 @@
         "package",
         "marking"
       ],
-      "image": "/media/hero.jpg",
+      "image": "/media/gear/px-spray.jpg",
       "monthly": 744
     },
     {
@@ -5427,7 +5427,7 @@
         "package",
         "blast"
       ],
-      "image": "/media/hero.jpg",
+      "image": "/media/gear/px-crane.jpg",
       "monthly": 550
     },
     {
@@ -5498,7 +5498,7 @@
         "package",
         "roof"
       ],
-      "image": "/media/hero.jpg",
+      "image": "/media/gear/polisher.jpg",
       "monthly": 478
     },
     {
@@ -5570,7 +5570,7 @@
         "package",
         "envelope"
       ],
-      "image": "/media/hero.jpg",
+      "image": "/media/gear/blaster.jpg",
       "monthly": 261
     }
   ]

@@ -28,8 +28,8 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <Image
-            src="/media/hero.jpg"
-            alt="Commercial concrete and pavement jobsite"
+            src="/media/gear/polisher.jpg"
+            alt="Walk-behind concrete floor machine on a commercial slab"
             width={1400}
             height={1600}
             priority
