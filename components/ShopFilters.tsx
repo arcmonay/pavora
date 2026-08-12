@@ -88,13 +88,6 @@ export function ShopFilters({ collections }: { collections: Collection[] }) {
       >
         In yard
       </button>
-      <button
-        type="button"
-        className={params.get("finance") ? "is-active" : ""}
-        onClick={() => update({ finance: params.get("finance") ? "" : "1" })}
-      >
-        Financing available
-      </button>
     </aside>
   );
 }

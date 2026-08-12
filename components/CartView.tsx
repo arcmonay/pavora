@@ -49,8 +49,8 @@ export function CartView() {
         <Link href="/quote" className="btn btn-signal">
           Checkout / request invoice
         </Link>
-        <Link href="/financing" className="btn btn-ghost">
-          See payment options
+        <Link href="/shop" className="btn btn-ghost">
+          Keep shopping
         </Link>
       </div>
     </div>

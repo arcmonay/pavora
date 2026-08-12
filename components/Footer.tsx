@@ -18,7 +18,7 @@ export function Footer() {
       <div>
         <strong>Crews</strong>
         <Link href="/business">Packages</Link>
-        <Link href="/financing">Financing</Link>
+        <Link href="/shop">Shop machinery</Link>
         <Link href="/quote">Request a quote</Link>
         <Link href="/compare">Compare</Link>
       </div>
@@ -30,7 +30,7 @@ export function Footer() {
         <Link href="/guides">Guides</Link>
       </div>
       <p className="legal">
-        © 2025 Pavora. All rights reserved. Financing is offered through third-party lenders, subject to approval. Equipment is sold for professional contractor use. Pavora is not a licensed contractor and does not perform field work.
+        © 2025 Pavora. All rights reserved. Equipment is sold for professional contractor use. Pavora is not a licensed contractor and does not perform field work.
       </p>
     </footer>
   );

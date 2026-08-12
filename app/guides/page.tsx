@@ -9,7 +9,7 @@ export default function GuidesPage() {
       <p className="kicker">Resources</p>
       <h1 className="display text-4xl mt-2">Equipment guides</h1>
       <p className="lede mt-3 mb-10">
-        Research before you finance. Written for owners speccing a first truck or replacing a machine that failed on a Tuesday.
+        Research before you buy. Written for owners speccing a first truck or replacing a machine that failed on a Tuesday.
       </p>
       <div className="grid-4">
         {guides.map((g) => (

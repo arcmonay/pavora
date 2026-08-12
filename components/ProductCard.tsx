@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ProductVisual } from "@/components/ProductVisual";
 import { formatMoney } from "@/lib/products";
-import { monthlyLabel } from "@/lib/finance";
 import type { Product } from "@/lib/types";
 
 export function ProductCard({ product }: { product: Product }) {
@@ -19,10 +18,9 @@ export function ProductCard({ product }: { product: Product }) {
             <strong>Request a quote</strong>
           ) : (
             <>
-              <strong>{monthlyLabel(product.monthly)}</strong>
+              <strong>{formatMoney(product.price)}</strong>
               <span>
-                {formatMoney(product.price)} · {product.inStock ? "In yard" : "Built to order"} ·{" "}
-                {product.warrantyYears} yr warranty
+                {product.inStock ? "In yard" : "Built to order"} · {product.warrantyYears} yr warranty
               </span>
             </>
           )}

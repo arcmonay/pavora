@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { AddToCartButton } from "@/components/AddToCartButton";
 import { ProductGrid } from "@/components/ProductCard";
 import { ProductVisual } from "@/components/ProductVisual";
-import { financeDisclaimer, monthlyLabel } from "@/lib/finance";
 import {
   formatMoney,
   getCollection,
@@ -57,7 +56,6 @@ export default async function ProductPage({ params }: PageProps<"/shop/[handle]"
           ) : (
             <p className="mt-4">
               <span className="text-2xl">{formatMoney(product.price)}</span>
-              <span className="block mt-1 text-[var(--signal-deep)]">{monthlyLabel(product.monthly)}</span>
             </p>
           )}
           <p className="mt-2 text-sm text-[var(--muted)]">
@@ -73,7 +71,6 @@ export default async function ProductPage({ params }: PageProps<"/shop/[handle]"
               ["Dimensions", product.dimensions],
               ["Weight", `${product.weightLbs} lb`],
               ["Warranty", product.warrantyYears ? `${product.warrantyYears} year limited` : "Wear part"],
-              ["Financing", product.financing ? "Available, subject to approval" : "—"],
             ].map(([label, value]) => (
               <li key={label}>
                 <span>{label}</span>
@@ -81,7 +78,6 @@ export default async function ProductPage({ params }: PageProps<"/shop/[handle]"
               </li>
             ))}
           </ul>
-          <p className="text-[0.75rem] text-[var(--muted)] mt-4">{financeDisclaimer()}</p>
         </div>
       </article>
 

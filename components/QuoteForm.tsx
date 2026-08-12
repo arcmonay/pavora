@@ -18,7 +18,7 @@ export function QuoteForm() {
   if (sent) {
     return (
       <p className="lede">
-        Quote request filed. A yard specialist will reply with availability, freight, and financing options. This is not an approval.
+        Quote request filed. A yard specialist will reply with availability, freight, and an invoice.
       </p>
     );
   }

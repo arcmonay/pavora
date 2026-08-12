@@ -6,8 +6,8 @@ const faqs = [
     a: "Most machines are specified for commercial crews. Municipal buyers are welcome. We still ask what the trade is.",
   },
   {
-    q: "Can I finance a $18,000 slab-jacking rig?",
-    a: "You can apply. Monthly figures on the site are illustrations. Lenders decide. We do not guarantee approval.",
+    q: "How do I buy a machine?",
+    a: "Add it to the cart or request a quote. Most units under $15,000 can go on an invoice from the cart. Trailers, ride-ons, and quote-only rigs are priced after freight is confirmed.",
   },
   {
     q: "Do you install?",

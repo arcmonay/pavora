@@ -68,8 +68,8 @@ export default function Home() {
             <p className="kicker">In the yard</p>
             <h2 className="display text-4xl">Crew favorites</h2>
           </div>
-          <Link href="/financing" className="btn btn-ghost">
-            See payment options
+          <Link href="/shop?collection=parts" className="btn btn-ghost">
+            Wear parts
           </Link>
         </div>
         <ProductGrid products={sellers} />

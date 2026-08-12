@@ -30,7 +30,7 @@ const shop = [
   { href: "/shop?collection=packages", label: "Crew packages" },
   { href: "/shop?collection=parts", label: "Consumables & wear parts" },
   { href: "/shop?max=5000", label: "Under $5,000" },
-  { href: "/shop?finance=1", label: "Financing available" },
+  { href: "/shop?stock=1", label: "In yard now" },
 ];
 
 const business = [
@@ -39,7 +39,6 @@ const business = [
   { href: "/business/lot-maintenance-crew", label: "Lot maintenance route" },
   { href: "/business/marking-crew", label: "Marking crew" },
   { href: "/business/garage-restore-crew", label: "Garage restoration" },
-  { href: "/financing", label: "Financing" },
   { href: "/quote", label: "Request a quote" },
 ];
 
@@ -80,7 +79,7 @@ export function Header() {
     <header className="mast">
       <div className="mast-top">
         <nav className="mast-side">
-          <Link href="/financing">Financing</Link>
+          <Link href="/shop">Shop</Link>
           <Link href="/quote">Quote</Link>
           <Link href="/guides">Guides</Link>
         </nav>

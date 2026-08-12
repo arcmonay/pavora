@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: "%s · Pavora",
   },
   description:
-    "Commercial equipment for concrete grinding, crack injection, slab leveling, asphalt sealing, thermoplastic marking, blasting, laser cleaning, pressure washing, drone roof inspections, and parking garage restoration. Financing available, subject to approval.",
+    "Commercial equipment for concrete grinding, crack injection, slab leveling, asphalt sealing, thermoplastic marking, blasting, laser cleaning, pressure washing, drone roof inspections, and parking garage restoration.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -14,14 +14,6 @@ const rows: { key: string; label: string; value: (h: string) => string }[] = [
     },
   },
   {
-    key: "month",
-    label: "From / month",
-    value: (h) => {
-      const p = getProduct(h);
-      return p ? `$${p.monthly}` : "—";
-    },
-  },
-  {
     key: "type",
     label: "Trades",
     value: (h) => getProduct(h)?.tradeTypes.join(", ") ?? "—",
@@ -45,11 +37,6 @@ const rows: { key: string; label: string; value: (h: string) => string }[] = [
     },
   },
   { key: "use", label: "Duty", value: (h) => getProduct(h)?.useCase ?? "—" },
-  {
-    key: "fin",
-    label: "Financing",
-    value: (h) => (getProduct(h)?.financing ? "Yes, subject to approval" : "—"),
-  },
 ];
 
 export default function ComparePage() {

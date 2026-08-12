@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { formatMoney } from "@/lib/products";
 import { packages } from "@/data/content";
-import { monthlyLabel } from "@/lib/finance";
 
 export const metadata = { title: "Crew packages" };
 
@@ -21,8 +20,8 @@ export default function BusinessPage() {
               <p className="card-name mt-2">{pack.title}</p>
               <p className="card-desc">{pack.summary}</p>
               <div className="ticket">
-                <strong>{monthlyLabel(pack.monthly)}</strong>
-                <span>{formatMoney(pack.price)} equipment invoice</span>
+                <strong>{formatMoney(pack.price)}</strong>
+                <span>Equipment invoice · freight quoted</span>
               </div>
             </div>
           </Link>
