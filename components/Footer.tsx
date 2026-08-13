@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const shop = [
@@ -27,6 +28,13 @@ export function Footer() {
     <footer className="site-footer">
       <div className="footer-grid">
         <div>
+          <Image
+            src="/logo.png"
+            alt="Pavora"
+            width={140}
+            height={84}
+            className="footer-logo"
+          />
           <h3>Pavora</h3>
           <p>
             Contractor equipment for concrete grinding, crack injection, asphalt

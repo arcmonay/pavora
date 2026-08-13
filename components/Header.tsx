@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
@@ -38,8 +39,18 @@ export function Header() {
       <header className="site-header">
         <div className="header-row">
           <Link href="/" className="logo" aria-label="Pavora home">
-            Pavora
-            <span>Surface machinery</span>
+            <Image
+              src="/logo.png"
+              alt="Pavora"
+              width={160}
+              height={96}
+              priority
+              className="logo-mark"
+            />
+            <span className="logo-text">
+              Pavora
+              <em>Surface machinery</em>
+            </span>
           </Link>
           <form className="search-form" onSubmit={onSearch} role="search">
             <input
