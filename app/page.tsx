@@ -28,11 +28,12 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <Image
-            src="/media/catalog/laser.webp"
-            alt="Handheld fiber laser cleaning cart"
-            width={1400}
-            height={1600}
+            src="/media/hero.jpg"
+            alt="Crew coating a commercial warehouse slab"
+            fill
             priority
+            sizes="(max-width: 900px) 100vw, 50vw"
+            quality={90}
           />
         </div>
       </section>

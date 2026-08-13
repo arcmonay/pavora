@@ -2,7 +2,7 @@ $dest = "C:\Users\playf\Projects\pavora\public\media"
 New-Item -ItemType Directory -Force -Path $dest | Out-Null
 
 $files = @{
-  "hero.jpg"      = "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1800&q=80"
+  "hero.jpg"      = "https://images.unsplash.com/photo-1772209415876-76ea6cbc2f0c?fm=jpg&q=85&w=2400&auto=format&fit=crop"
   "grinding.jpg"  = "https://images.unsplash.com/photo-1517581178692-6d29e725b0d4?auto=format&fit=crop&w=1600&q=80"
   "injection.jpg" = "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80"
   "leveling.jpg"  = "https://images.unsplash.com/photo-1590674899484-d5640e854abe?auto=format&fit=crop&w=1600&q=80"
