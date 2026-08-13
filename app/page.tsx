@@ -10,8 +10,17 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero">
-        <div className="hero-copy">
+      <section className="hero-bleed">
+        <Image
+          src="/media/hero.jpg"
+          alt="Crew coating a commercial warehouse slab"
+          fill
+          priority
+          sizes="100vw"
+          quality={90}
+        />
+        <div className="hero-scrim" aria-hidden="true" />
+        <div className="hero-content">
           <p className="kicker">Trade 00 · Surface machinery</p>
           <h1>The machine in the photo is the machine on the invoice.</h1>
           <p>
@@ -25,16 +34,6 @@ export default function Home() {
               Spec a crew package
             </Link>
           </div>
-        </div>
-        <div className="hero-visual">
-          <Image
-            src="/media/hero.jpg"
-            alt="Crew coating a commercial warehouse slab"
-            fill
-            priority
-            sizes="(max-width: 900px) 100vw, 50vw"
-            quality={90}
-          />
         </div>
       </section>
 

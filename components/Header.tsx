@@ -4,91 +4,43 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
 
-const equipment = [
-  { href: "/departments/grinding", label: "01 Concrete grinding" },
-  { href: "/departments/injection", label: "02 Crack injection" },
-  { href: "/departments/crack-sealing", label: "03 Asphalt crack sealing" },
-  { href: "/departments/soda", label: "04 Soda & sand blasting" },
-  { href: "/departments/laser", label: "05 Laser cleaning" },
-  { href: "/departments/pressure-wash", label: "06 Pressure washing" },
-  { href: "/departments/lot-painting", label: "07 Parking lot painting" },
-  { href: "/departments/caulking", label: "08 Commercial caulking" },
+const links = [
+  { href: "/shop", match: "/shop", label: "The Yard" },
+  { href: "/departments/grinding", match: "/departments", label: "Trades" },
+  { href: "/business", match: "/business", label: "Crew Packages" },
+  { href: "/quote", match: "/quote", label: "Quotes" },
+  { href: "/guides", match: "/guides", label: "Guides" },
+  { href: "/support", match: "/support", label: "Support" },
 ];
-
-const shop = [
-  { href: "/shop", label: "All machinery" },
-  { href: "/shop?sort=featured", label: "Yard favorites" },
-  { href: "/shop?max=5000", label: "Under $5,000" },
-  { href: "/shop?stock=1", label: "In yard now" },
-];
-
-const business = [
-  { href: "/business", label: "Crew packages" },
-  { href: "/business/lot-maintenance-crew", label: "Lot maintenance route" },
-  { href: "/business/blast-shop-crew", label: "Blast shop" },
-  { href: "/quote", label: "Request a quote" },
-];
-
-const resources = [
-  { href: "/guides", label: "Equipment guides" },
-  { href: "/warranty", label: "Warranty" },
-  { href: "/support", label: "Yard desk" },
-  { href: "/faq", label: "FAQ" },
-  { href: "/compare", label: "Compare machines" },
-];
-
-function Menu({
-  label,
-  items,
-}: {
-  label: string;
-  items: { href: string; label: string }[];
-}) {
-  return (
-    <details>
-      <summary>{label}</summary>
-      <div className="mega-panel">
-        {items.map((item) => (
-          <Link key={item.label} href={item.href}>
-            {item.label}
-          </Link>
-        ))}
-      </div>
-    </details>
-  );
-}
 
 export function Header() {
   const pathname = usePathname();
   const { count } = useCart();
 
   return (
-    <header className="mast">
-      <div className="mast-top">
-        <nav className="mast-side">
-          <Link href="/shop">Shop</Link>
-          <Link href="/quote">Quote</Link>
-          <Link href="/guides">Guides</Link>
-        </nav>
-        <Link href="/" className="wordmark">
+    <header className="strip">
+      <div className="strip-bar">
+        <Link href="/" className="plate">
           <strong>Pavora</strong>
-          <span>Surface machinery</span>
+          <span className="plate-sub">Surface machinery</span>
         </Link>
-        <nav className="mast-side right">
-          <Link href="/shop">Yard</Link>
-          <Link href="/support">Desk</Link>
-          <Link href="/cart">Cart{count ? ` ${count}` : ""}</Link>
+        <nav className="strip-nav" aria-label="Primary">
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={pathname.startsWith(link.match) ? "is-active" : ""}
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
-      </div>
-      <nav className="mega" aria-label="Trades">
-        <Menu label="Trades" items={equipment} />
-        <Menu label="Yard" items={shop} />
-        <Menu label="Crews" items={business} />
-        <Menu label="Resources" items={resources} />
-        <Link href="/shop" className={pathname.startsWith("/shop") ? "is-active" : ""}>
-          Shop machinery
+        <Link href="/cart" className="cart-stub">
+          <span>Cart</span>
+          <strong>{count}</strong>
         </Link>
-      </nav>
+      </div>
+      <div className="hazard-rule" aria-hidden="true" />
     </header>
   );
 }
