@@ -36,58 +36,47 @@ export default async function ProductPage({ params }: PageProps<"/shop/[handle]"
   return (
     <>
       <article className="pdp">
-        <div className="pdp-banner">
+        <div className="pdp-gallery">
           <ProductVisual product={product} priority />
         </div>
-        <div className="pdp-plate">
-          <div className="plate-copy">
-            <p className="kicker">
-              {collection ? (
-                <Link href={`/departments/${collection.handle}`}>
-                  Bay {collection.bay} · {collection.title}
-                </Link>
-              ) : (
-                "Pavora"
-              )}
-            </p>
-            <h1>{product.title.replace("Pavora ", "")}</h1>
-            <p className="lede">{product.description}</p>
-            {product.quoteOnly ? (
-              <p className="plate-price mt-4">Quote on request</p>
+        <div className="pdp-buy">
+          <p className="kicker">
+            {collection ? (
+              <Link href={`/departments/${collection.handle}`}>{collection.title}</Link>
             ) : (
-              <p className="plate-price mt-4">{formatMoney(product.price)}</p>
+              "Pavora"
             )}
-            <p className="mt-2 text-sm text-[var(--muted)]">
-              {product.inStock ? "In yard" : "Built to order"} · {product.leadTime}
-            </p>
-            <ul className="spec-sheet">
-              {[
-                ["SKU", product.sku],
-                ["Type", product.equipmentType],
-                ["Duty", product.useCase],
-                ["Power", product.power],
-                ["Dimensions", product.dimensions],
-                ["Weight", `${product.weightLbs} lb`],
-                [
-                  "Warranty",
-                  product.warrantyYears ? `${product.warrantyYears} year limited` : "Wear part",
-                ],
-              ].map(([label, value]) => (
-                <li key={label}>
-                  <span>{label}</span>
-                  <strong>{value}</strong>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="plate-actions">
-            <p className="kicker">Issue / quote</p>
-            <p className="lede mt-3 mb-6">
-              Add to cart for in-yard units, or file a quote when freight, trailer, or power
-              options need a desk pass.
-            </p>
-            <AddToCartButton product={product} />
-          </div>
+          </p>
+          <h1>{product.title.replace("Pavora ", "")}</h1>
+          <p className="lede">{product.description}</p>
+          {product.quoteOnly ? (
+            <p className="price">Request Quote</p>
+          ) : (
+            <p className="price">{formatMoney(product.price)}</p>
+          )}
+          <p className="text-sm text-[var(--muted)]">
+            {product.inStock ? "In Stock" : "Built to Order"} · {product.leadTime}
+          </p>
+          <AddToCartButton product={product} />
+          <ul className="spec-list">
+            {[
+              ["SKU", product.sku],
+              ["Type", product.equipmentType],
+              ["Duty", product.useCase],
+              ["Power", product.power],
+              ["Dimensions", product.dimensions],
+              ["Weight", `${product.weightLbs} lb`],
+              [
+                "Warranty",
+                product.warrantyYears ? `${product.warrantyYears} year limited` : "Wear part",
+              ],
+            ].map(([label, value]) => (
+              <li key={label}>
+                <span>{label}</span>
+                <strong>{value}</strong>
+              </li>
+            ))}
+          </ul>
         </div>
       </article>
 
@@ -96,25 +85,25 @@ export default async function ProductPage({ params }: PageProps<"/shop/[handle]"
         <p>
           {product.description} {product.highlight}.
         </p>
-        <h2>Jobsite applications</h2>
+        <h2>Applications</h2>
         <ul>
           {product.applications.map((item) => (
             <li key={item}>{item}</li>
           ))}
         </ul>
-        <h2>Intended crews</h2>
+        <h2>Intended users</h2>
         <ul>
           {product.intendedUsers.map((item) => (
             <li key={item}>{item}</li>
           ))}
         </ul>
-        <h2>Why crews spec it</h2>
+        <h2>Benefits</h2>
         <ul>
           {product.benefits.map((item) => (
             <li key={item}>{item}</li>
           ))}
         </ul>
-        <h2>What’s on the crate</h2>
+        <h2>What’s included</h2>
         <ul>
           {product.included.map((item) => (
             <li key={item}>{item}</li>
@@ -126,7 +115,7 @@ export default async function ProductPage({ params }: PageProps<"/shop/[handle]"
         <p>{product.training}</p>
         <h2>Shipping</h2>
         <p>{product.shipping}</p>
-        <h2>Wear parts</h2>
+        <h2>Replacement parts</h2>
         <p>{product.replacementParts}</p>
         <h2>FAQ</h2>
         {product.faqs.map((f) => (
@@ -141,7 +130,7 @@ export default async function ProductPage({ params }: PageProps<"/shop/[handle]"
       {related.length ? (
         <section className="section">
           <div className="section-head">
-            <h2 className="display text-3xl">Also in this bay</h2>
+            <h2>Related Products</h2>
           </div>
           <ProductGrid products={related} />
         </section>

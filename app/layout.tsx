@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono, Oswald, Source_Sans_3 } from "next/font/google";
+import { Barlow } from "next/font/google";
 import { CompareBar } from "@/components/CompareBar";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -7,22 +7,10 @@ import { CartProvider } from "@/lib/cart-context";
 import { CompareProvider } from "@/lib/compare-context";
 import "./globals.css";
 
-const display = Oswald({
-  variable: "--font-oswald",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
-
-const sans = Source_Sans_3({
-  variable: "--font-source",
+const sans = Barlow({
+  variable: "--font-barlow",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-});
-
-const mono = JetBrains_Mono({
-  variable: "--font-jbmono",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -31,13 +19,13 @@ export const metadata: Metadata = {
     template: "%s · Pavora",
   },
   description:
-    "Yard catalog for concrete grinders, crack injection, asphalt kettles, blast pots, laser cleaners, pressure washers, lot stripers, and commercial caulk guns.",
+    "Concrete grinding, crack injection, blasting, laser cleaning, pressure washing, lot painting, and commercial caulking equipment for contractors.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable} ${mono.variable} h-full`}>
-      <body className="yard antialiased">
+    <html lang="en" className={`${sans.variable} h-full`}>
+      <body className="store antialiased">
         <CartProvider>
           <CompareProvider>
             <Header />

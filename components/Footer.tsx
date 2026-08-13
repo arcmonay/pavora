@@ -1,61 +1,57 @@
 import Link from "next/link";
 
-const left = [
-  { href: "/shop", label: "Open the yard" },
-  { href: "/business", label: "Crew packages" },
-  { href: "/quote", label: "Request a quote" },
-  { href: "/compare", label: "Compare machines" },
+const shop = [
+  { href: "/shop", label: "All Equipment" },
+  { href: "/departments/grinding", label: "Grinders" },
+  { href: "/departments/injection", label: "Injection" },
+  { href: "/departments/soda", label: "Blasting" },
+  { href: "/departments/laser", label: "Laser Cleaning" },
 ];
 
-const mid = [
-  { href: "/guides", label: "Buying guides" },
-  { href: "/financing", label: "Financing" },
-  { href: "/warranty", label: "Warranty" },
-  { href: "/support", label: "Yard desk" },
-];
-
-const right = [
+const company = [
+  { href: "/business", label: "Crew Packages" },
+  { href: "/guides", label: "Guides" },
+  { href: "/compare", label: "Compare" },
   { href: "/faq", label: "FAQ" },
-  { href: "/departments/grinding", label: "Bay 01 Grind" },
-  { href: "/departments/laser", label: "Bay 05 Laser" },
-  { href: "/departments/lot-painting", label: "Bay 07 Stripe" },
+];
+
+const support = [
+  { href: "/quote", label: "Request a Quote" },
+  { href: "/support", label: "Support" },
+  { href: "/warranty", label: "Warranty" },
+  { href: "/financing", label: "Financing" },
 ];
 
 export function Footer() {
   return (
-    <footer className="slip-foot">
-      <div className="slip-band">
-        <p className="slip-brand">Pavora packing slip</p>
-        <div className="slip-barcode" aria-hidden="true">
-          {Array.from({ length: 28 }).map((_, i) => (
-            <i key={i} />
-          ))}
-        </div>
-      </div>
-      <div className="slip-grid">
+    <footer className="site-footer">
+      <div className="footer-grid">
         <div>
-          <h3>Ship from</h3>
+          <h3>Pavora</h3>
           <p>
-            Contractor surface machinery — grinders, injection, blast, laser,
-            wash, stripe, and caulk. Photo on the listing is the unit on the ticket.
+            Contractor equipment for concrete grinding, crack injection, asphalt
+            sealing, blasting, laser cleaning, pressure washing, lot painting, and caulking.
           </p>
         </div>
-        <nav aria-label="Footer primary">
-          <h3>Issue</h3>
-          {left.map((item) => (
+        <nav aria-label="Shop links">
+          <h3>Shop</h3>
+          {shop.map((item) => (
             <Link key={item.href} href={item.href}>
               {item.label}
             </Link>
           ))}
         </nav>
-        <nav aria-label="Footer support">
-          <h3>Desk</h3>
-          {mid.map((item) => (
+        <nav aria-label="Company links">
+          <h3>Company</h3>
+          {company.map((item) => (
             <Link key={item.href} href={item.href}>
               {item.label}
             </Link>
           ))}
-          {right.map((item) => (
+        </nav>
+        <nav aria-label="Support links">
+          <h3>Support</h3>
+          {support.map((item) => (
             <Link key={item.href} href={item.href}>
               {item.label}
             </Link>

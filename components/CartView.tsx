@@ -10,7 +10,7 @@ export function CartView() {
   if (!items.length) {
     return (
       <p className="lede">
-        The cart is empty. <Link href="/shop">Shop machinery</Link>
+        Your cart is empty. <Link href="/shop">Shop equipment</Link>
       </p>
     );
   }
@@ -41,16 +41,18 @@ export function CartView() {
           </li>
         ))}
       </ul>
-      <p className="mt-6 text-xl">Subtotal {formatMoney(subtotal)}</p>
+      <p className="mt-6 text-xl font-bold" style={{ color: "var(--red)" }}>
+        Subtotal {formatMoney(subtotal)}
+      </p>
       <p className="text-sm text-[var(--muted)] mt-2">
-        Freight calculated after address. High-ticket rigs may be invoiced instead of charged in full.
+        Freight calculated after address. High-ticket equipment may be invoiced.
       </p>
       <div className="cta-row">
-        <Link href="/quote" className="btn btn-amber">
-          Checkout / request invoice
+        <Link href="/quote" className="btn btn-primary">
+          Checkout / Request Invoice
         </Link>
-        <Link href="/shop" className="btn btn-outline">
-          Keep shopping
+        <Link href="/shop" className="btn">
+          Continue Shopping
         </Link>
       </div>
     </div>

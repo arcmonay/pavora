@@ -1,75 +1,92 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { FormEvent, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
 
-const bays = [
-  { href: "/departments/grinding", code: "01", label: "GRIND" },
-  { href: "/departments/injection", code: "02", label: "INJECT" },
-  { href: "/departments/crack-sealing", code: "03", label: "SEAL" },
-  { href: "/departments/soda", code: "04", label: "BLAST" },
-  { href: "/departments/laser", code: "05", label: "LASER" },
-  { href: "/departments/pressure-wash", code: "06", label: "WASH" },
-  { href: "/departments/lot-painting", code: "07", label: "STRIPE" },
-  { href: "/departments/caulking", code: "08", label: "CAULK" },
-];
-
-const desk = [
-  { href: "/shop", match: "/shop", label: "YARD" },
-  { href: "/business", match: "/business", label: "CREW" },
-  { href: "/quote", match: "/quote", label: "QUOTE" },
-  { href: "/guides", match: "/guides", label: "GUIDE" },
-  { href: "/support", match: "/support", label: "DESK" },
+const cats = [
+  { href: "/departments/grinding", label: "Grinders" },
+  { href: "/departments/injection", label: "Injection" },
+  { href: "/departments/crack-sealing", label: "Crack Sealing" },
+  { href: "/departments/soda", label: "Blasting" },
+  { href: "/departments/laser", label: "Laser" },
+  { href: "/departments/pressure-wash", label: "Pressure Wash" },
+  { href: "/departments/lot-painting", label: "Lot Painting" },
+  { href: "/departments/caulking", label: "Caulking" },
+  { href: "/shop", label: "All Equipment" },
 ];
 
 export function Header() {
   const pathname = usePathname();
+  const router = useRouter();
   const { count } = useCart();
+  const [q, setQ] = useState("");
+
+  function onSearch(e: FormEvent) {
+    e.preventDefault();
+    const query = q.trim();
+    router.push(query ? `/shop?q=${encodeURIComponent(query)}` : "/shop");
+  }
 
   return (
-    <header className="ticket-head">
-      <div className="ticket-top">
-        <Link href="/" className="stamp" aria-label="Pavora home">
-          PAVORA
-          <span>Yard ticket · surface machinery</span>
-        </Link>
-        <nav className="ticket-meta" aria-label="Desk links">
-          Doc type
-          <strong>RECEIVING / ISSUE</strong>
-          <span style={{ display: "block", marginTop: "0.55rem" }}>
-            {desk.map((d) => (
+    <>
+      <div className="topbar">
+        <span>Surface prep specialists · contractor equipment</span>
+        <a href="tel:18005550199">Phone: 1-800-555-0199</a>
+      </div>
+      <header className="site-header">
+        <div className="header-row">
+          <Link href="/" className="logo" aria-label="Pavora home">
+            Pavora
+            <span>Surface machinery</span>
+          </Link>
+          <form className="search-form" onSubmit={onSearch} role="search">
+            <input
+              type="search"
+              name="q"
+              placeholder="Search grinders, blast pots, lasers…"
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              aria-label="Search equipment"
+            />
+            <button type="submit">Search</button>
+          </form>
+          <div className="header-actions">
+            <Link href="/quote">Request Quote</Link>
+            <Link href="/cart" className="cart-link">
+              Cart <em>{count}</em>
+            </Link>
+          </div>
+        </div>
+        <nav className="nav-bar" aria-label="Product categories">
+          <div className="nav-bar-inner">
+            {cats.map((c) => (
               <Link
-                key={d.href}
-                href={d.href}
-                style={{
-                  display: "inline-block",
-                  marginLeft: "0.75rem",
-                  color: pathname.startsWith(d.match) ? "var(--amber-ink)" : undefined,
-                }}
+                key={c.href}
+                href={c.href}
+                className={
+                  c.href === "/shop"
+                    ? pathname === "/shop"
+                      ? "is-active"
+                      : ""
+                    : pathname.startsWith(c.href)
+                      ? "is-active"
+                      : ""
+                }
               >
-                {d.label}
+                {c.label}
               </Link>
             ))}
-          </span>
-        </nav>
-        <Link href="/cart" className="punch" aria-label={`Cart, ${count} items`}>
-          {String(count).padStart(2, "0")}
-        </Link>
-      </div>
-      <nav className="bay-rail" aria-label="Trade bays">
-        {bays.map((bay) => {
-          const slug = bay.href.split("/").pop()!;
-          const active = pathname.includes(`/departments/${slug}`);
-          return (
-            <Link key={bay.href} href={bay.href} className={`bay${active ? " is-active" : ""}`}>
-              <em>BAY {bay.code}</em>
-              <strong>{bay.label}</strong>
+            <Link href="/business" className={pathname.startsWith("/business") ? "is-active" : ""}>
+              Packages
             </Link>
-          );
-        })}
-      </nav>
-      <div className="perforation" aria-hidden="true" />
-    </header>
+            <Link href="/guides" className={pathname.startsWith("/guides") ? "is-active" : ""}>
+              Resources
+            </Link>
+          </div>
+        </nav>
+      </header>
+    </>
   );
 }

@@ -5,29 +5,20 @@ import type { Product } from "@/lib/types";
 
 export function ProductCard({ product }: { product: Product }) {
   return (
-    <Link href={`/shop/${product.handle}`} className="ledger-row">
-      <div className="ledger-thumb">
+    <Link href={`/shop/${product.handle}`} className="product-card">
+      <div className="thumb">
         <ProductVisual product={product} />
       </div>
-      <div className="ledger-copy">
-        <p className="sku">
-          {product.sku} · {product.equipmentType}
+      <div className="info">
+        <p className="type">{product.equipmentType}</p>
+        <h3>{product.title.replace("Pavora ", "")}</h3>
+        <p className="price">
+          {product.quoteOnly ? "Request Quote" : formatMoney(product.price)}
         </p>
-        <strong>{product.title.replace("Pavora ", "")}</strong>
-        <p>
-          {product.highlight}.{" "}
-          {product.warrantyYears ? `${product.warrantyYears}-year warranty.` : "Wear part."}
+        <p className="meta">
+          {product.inStock ? "In Stock" : "Built to Order"} · {product.leadTime}
         </p>
-      </div>
-      <div className="ledger-price">
-        {product.quoteOnly ? (
-          <strong>Quote</strong>
-        ) : (
-          <strong>{formatMoney(product.price)}</strong>
-        )}
-        <span>
-          {product.inStock ? "In yard" : "Built to order"} · {product.leadTime}
-        </span>
+        <span className="btn">{product.quoteOnly ? "Choose Options" : "View Details"}</span>
       </div>
     </Link>
   );
@@ -35,7 +26,7 @@ export function ProductCard({ product }: { product: Product }) {
 
 export function ProductGrid({ products }: { products: Product[] }) {
   return (
-    <div className="ledger">
+    <div className="product-grid">
       {products.map((p) => (
         <ProductCard key={p.id} product={p} />
       ))}

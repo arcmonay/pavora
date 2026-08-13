@@ -11,7 +11,7 @@ export async function generateMetadata({
 }: PageProps<"/departments/[slug]">) {
   const { slug } = await params;
   const c = getCollection(slug);
-  return { title: c?.title ?? "Bay" };
+  return { title: c?.title ?? "Category" };
 }
 
 export default async function DepartmentPage({
@@ -24,8 +24,8 @@ export default async function DepartmentPage({
 
   return (
     <section className="section">
-      <p className="kicker">Bay {collection.bay}</p>
-      <h1 className="display text-4xl mt-2">{collection.title}</h1>
+      <p className="kicker">Category</p>
+      <h1 className="display text-3xl mt-2">{collection.title}</h1>
       <p className="lede mt-3 mb-10">{collection.description}</p>
       <ProductGrid products={products} />
     </section>

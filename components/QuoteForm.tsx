@@ -56,8 +56,8 @@ export function QuoteForm() {
         Notes
         <textarea name="notes" placeholder="Trade, voltage, trailer vs. skid, first job date…" />
       </label>
-      <button type="submit" className="btn btn-void justify-self-start">
-        Request a quote
+      <button type="submit" className="btn btn-primary justify-self-start">
+        Request a Quote
       </button>
     </form>
   );

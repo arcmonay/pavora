@@ -23,11 +23,11 @@ export default function FinancingPage() {
       </div>
       <p className="text-sm text-[var(--muted)]">{financeDisclaimer()}</p>
       <div className="cta-row mt-8">
-        <Link href="/shop" className="btn btn-amber">
-          Shop machinery
+        <Link href="/shop" className="btn btn-primary">
+          Shop Equipment
         </Link>
-        <Link href="/quote" className="btn btn-outline">
-          Request a quote
+        <Link href="/quote" className="btn">
+          Request a Quote
         </Link>
       </div>
     </section>

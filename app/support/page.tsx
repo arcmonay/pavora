@@ -17,10 +17,10 @@ export default function SupportPage() {
         <li>First-truck consultations</li>
       </ul>
       <div className="cta-row mt-8">
-        <Link href="/quote" className="btn btn-amber">
-          Talk to the yard desk
+        <Link href="/quote" className="btn btn-primary">
+          Contact Support
         </Link>
-        <Link href="/faq" className="btn btn-outline">
+        <Link href="/faq" className="btn">
           FAQ
         </Link>
       </div>

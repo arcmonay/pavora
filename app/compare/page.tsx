@@ -49,8 +49,8 @@ export default function ComparePage() {
         <p className="lede mt-3">
           Add up to three units from any product page. Built for expensive equipment — not $80 paint pails.
         </p>
-        <Link href="/shop" className="btn btn-amber mt-6 inline-flex">
-          Open the yard
+        <Link href="/shop" className="btn btn-primary mt-6 inline-flex">
+          Shop Equipment
         </Link>
       </section>
     );
@@ -60,7 +60,7 @@ export default function ComparePage() {
     <section className="section">
       <div className="section-head">
         <h1 className="display text-4xl">Compare</h1>
-        <button type="button" className="btn btn-outline" onClick={clear}>
+        <button type="button" className="btn" onClick={clear}>
           Clear
         </button>
       </div>

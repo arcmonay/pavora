@@ -33,11 +33,11 @@ export default async function PackagePage({ params }: PageProps<"/business/[slug
         ))}
       </ul>
       <div className="cta-row mt-8">
-        <Link href={`/quote?machine=${pack.slug}`} className="btn btn-amber">
-          Request a quote
+        <Link href={`/quote?machine=${pack.slug}`} className="btn btn-primary">
+          Request a Quote
         </Link>
-        <Link href="/shop" className="btn btn-outline">
-          Open the yard
+        <Link href="/shop" className="btn">
+          Shop Equipment
         </Link>
       </div>
     </section>

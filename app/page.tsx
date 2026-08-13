@@ -3,108 +3,117 @@ import Link from "next/link";
 import { ProductGrid } from "@/components/ProductCard";
 import { getFeaturedProducts, getHighTicket, tradeLines } from "@/lib/products";
 
-const bayCode: Record<string, string> = {
-  grinding: "GRIND",
-  injection: "INJECT",
-  "crack-sealing": "SEAL",
-  soda: "BLAST",
-  laser: "LASER",
-  "pressure-wash": "WASH",
-  "lot-painting": "STRIPE",
-  caulking: "CAULK",
+const catImage: Record<string, string> = {
+  grinding: "/media/grinding.jpg",
+  injection: "/media/injection.jpg",
+  "crack-sealing": "/media/asphalt.jpg",
+  soda: "/media/blast.jpg",
+  laser: "/media/laser.jpg",
+  "pressure-wash": "/media/wash.jpg",
+  "lot-painting": "/media/marking.jpg",
+  caulking: "/media/caulk.jpg",
 };
 
 export default function Home() {
-  const trades = tradeLines();
-  const featured = getHighTicket(6);
-  const sellers = getFeaturedProducts(6);
+  const trades = tradeLines().slice(0, 8);
+  const featured = getHighTicket(8);
+  const sellers = getFeaturedProducts(8);
 
   return (
     <>
-      <section className="spread">
-        <div className="spread-shot">
-          <Image
-            src="/media/hero.jpg"
-            alt="Crew coating a commercial warehouse slab"
-            fill
-            priority
-            sizes="(max-width: 980px) 100vw, 60vw"
-            quality={90}
-          />
-          <p className="spread-caption">
-            Jobsite editorial · commercial slab · catalog photo matches invoice unit
-          </p>
-        </div>
-        <div className="spread-ticket">
-          <span className="tag">Yard ticket 00</span>
-          <h1>Receive the machine. Issue the bay.</h1>
+      <section className="hero-banner">
+        <Image
+          src="/media/hero.jpg"
+          alt="Crew preparing a commercial concrete floor"
+          fill
+          priority
+          sizes="100vw"
+          quality={90}
+        />
+        <div className="hero-scrim" aria-hidden="true" />
+        <div className="hero-copy">
+          <span className="eyebrow">Surface preparation equipment</span>
+          <h1>Concrete grinding &amp; floor prep machinery</h1>
           <p>
-            Spec-sheet catalog for planetary grinders, injection pumps, blast pots,
-            laser cleaners, wash carts, lot stripers, and dual caulk guns.
+            Planetary grinders, injection pumps, blast pots, laser cleaners, wash carts,
+            lot stripers, and caulk guns — catalog photos match the units we sell.
           </p>
-          <div className="field-rows" aria-label="Ticket fields">
-            <div>
-              <span>Vendor</span>
-              <strong>Pavora surface machinery</strong>
-            </div>
-            <div>
-              <span>Stock</span>
-              <strong>In-yard units ship; freight quoted on ride-ons</strong>
-            </div>
-            <div>
-              <span>Photo rule</span>
-              <strong>Machine in the frame = machine on the ticket</strong>
-            </div>
-          </div>
           <div className="cta-row">
-            <Link href="/shop" className="btn btn-amber">
-              Open the yard
+            <Link href="/shop" className="btn btn-primary">
+              Shop Equipment
             </Link>
-            <Link href="/business" className="btn btn-void">
-              Spec a crew
+            <Link href="/business" className="btn" style={{ borderColor: "#fff", color: "#fff" }}>
+              View Packages
             </Link>
           </div>
         </div>
       </section>
 
-      <div className="bay-board">
-        {trades.map((d) => (
-          <Link key={d.handle} href={`/departments/${d.handle}`} className="bay-stub">
-            <div>
-              <span className="code">
-                BAY {d.bay} · {bayCode[d.handle] ?? d.handle.toUpperCase()}
-              </span>
-              <strong>{d.title}</strong>
-            </div>
-            <p>{d.description}</p>
-          </Link>
-        ))}
-      </div>
+      <section className="section">
+        <div className="section-head">
+          <p>Products for every project</p>
+          <h2>Shop by Category</h2>
+        </div>
+        <div className="cat-grid">
+          {trades.map((d) => (
+            <Link key={d.handle} href={`/departments/${d.handle}`} className="cat-tile">
+              <Image
+                src={catImage[d.handle] ?? "/media/lot.jpg"}
+                alt={d.title}
+                width={480}
+                height={280}
+              />
+              <div className="body">
+                <strong>{d.title}</strong>
+                <span>Shop now</span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="about-band">
+        <div className="about-grid">
+          <div>
+            <p className="kicker">About Us</p>
+            <h2>Concrete surface prep specialists</h2>
+            <p>
+              Pavora supplies commercial crews with grinding, injection, blasting, laser,
+              washing, striping, and caulking equipment. Listings show the machine you receive —
+              not a stock illustration of a different model.
+            </p>
+            <Link href="/support" className="btn btn-primary">
+              Learn more
+            </Link>
+          </div>
+          <Image
+            src="/media/garage.jpg"
+            alt="Equipment staged for commercial floor work"
+            width={900}
+            height={560}
+          />
+        </div>
+      </section>
 
       <section className="section">
         <div className="section-head">
-          <div>
-            <p className="kicker">High-ticket ledger</p>
-            <h2 className="display text-4xl">Featured machinery</h2>
-          </div>
-          <Link href="/shop" className="btn btn-outline">
-            Full yard list
-          </Link>
+          <p>Our bestsellers</p>
+          <h2>Trending Products</h2>
         </div>
         <ProductGrid products={featured} />
       </section>
 
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="section-head">
-          <div>
-            <p className="kicker">Crew pull sheet</p>
-            <h2 className="display text-4xl">In rotation</h2>
-          </div>
-          <Link href="/quote" className="btn btn-outline">
-            Request quote
-          </Link>
+          <p>In stock &amp; ready to ship</p>
+          <h2>Featured Equipment</h2>
         </div>
         <ProductGrid products={sellers} />
+        <div style={{ textAlign: "center", marginTop: "1.75rem" }}>
+          <Link href="/shop" className="btn btn-primary">
+            View All Equipment
+          </Link>
+        </div>
       </section>
     </>
   );
