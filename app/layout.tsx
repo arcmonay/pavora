@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Barlow_Condensed, IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
+import { JetBrains_Mono, Oswald, Source_Sans_3 } from "next/font/google";
 import { CompareBar } from "@/components/CompareBar";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -7,22 +7,22 @@ import { CartProvider } from "@/lib/cart-context";
 import { CompareProvider } from "@/lib/compare-context";
 import "./globals.css";
 
-const display = Barlow_Condensed({
-  variable: "--font-barlow",
+const display = Oswald({
+  variable: "--font-oswald",
   subsets: ["latin"],
-  weight: ["600", "700"],
+  weight: ["500", "600", "700"],
 });
 
-const sans = IBM_Plex_Sans({
-  variable: "--font-plex",
+const sans = Source_Sans_3({
+  variable: "--font-source",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+const mono = JetBrains_Mono({
+  variable: "--font-jbmono",
   subsets: ["latin"],
   weight: ["400", "500", "600"],
-});
-
-const mono = IBM_Plex_Mono({
-  variable: "--font-plex-mono",
-  subsets: ["latin"],
-  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: "%s · Pavora",
   },
   description:
-    "Commercial equipment for concrete grinding, crack injection, asphalt crack sealing, blasting, laser cleaning, pressure washing, lot painting, and caulking.",
+    "Yard catalog for concrete grinders, crack injection, asphalt kettles, blast pots, laser cleaners, pressure washers, lot stripers, and commercial caulk guns.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

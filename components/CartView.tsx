@@ -46,10 +46,10 @@ export function CartView() {
         Freight calculated after address. High-ticket rigs may be invoiced instead of charged in full.
       </p>
       <div className="cta-row">
-        <Link href="/quote" className="btn btn-signal">
+        <Link href="/quote" className="btn btn-amber">
           Checkout / request invoice
         </Link>
-        <Link href="/shop" className="btn btn-ghost">
+        <Link href="/shop" className="btn btn-outline">
           Keep shopping
         </Link>
       </div>

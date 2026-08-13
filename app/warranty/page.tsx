@@ -13,7 +13,7 @@ export default function WarrantyPage() {
       <p className="mt-6 leading-7">
         Warranty does not cover misuse, unlicensed field work, or running a grinder without extraction. Register the serial number with the yard desk after delivery. For freight damage, photograph the crate before signing.
       </p>
-      <Link href="/support" className="btn btn-signal mt-8 inline-flex">
+      <Link href="/support" className="btn btn-amber mt-8 inline-flex">
         Contact support
       </Link>
     </section>

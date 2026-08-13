@@ -5,26 +5,29 @@ import type { Product } from "@/lib/types";
 
 export function ProductCard({ product }: { product: Product }) {
   return (
-    <Link href={`/shop/${product.handle}`} className="card">
-      <ProductVisual product={product} />
-      <div className="card-body">
-        <p className="kicker">{product.equipmentType}</p>
-        <p className="card-name mt-1">{product.title.replace("Pavora ", "")}</p>
-        <p className="card-desc">
-          {product.highlight}. {product.warrantyYears ? `${product.warrantyYears}-year warranty.` : "Wear part."}
+    <Link href={`/shop/${product.handle}`} className="ledger-row">
+      <div className="ledger-thumb">
+        <ProductVisual product={product} />
+      </div>
+      <div className="ledger-copy">
+        <p className="sku">
+          {product.sku} · {product.equipmentType}
         </p>
-        <div className="ticket">
-          {product.quoteOnly ? (
-            <strong>Request a quote</strong>
-          ) : (
-            <>
-              <strong>{formatMoney(product.price)}</strong>
-              <span>
-                {product.inStock ? "In yard" : "Built to order"} · {product.warrantyYears} yr warranty
-              </span>
-            </>
-          )}
-        </div>
+        <strong>{product.title.replace("Pavora ", "")}</strong>
+        <p>
+          {product.highlight}.{" "}
+          {product.warrantyYears ? `${product.warrantyYears}-year warranty.` : "Wear part."}
+        </p>
+      </div>
+      <div className="ledger-price">
+        {product.quoteOnly ? (
+          <strong>Quote</strong>
+        ) : (
+          <strong>{formatMoney(product.price)}</strong>
+        )}
+        <span>
+          {product.inStock ? "In yard" : "Built to order"} · {product.leadTime}
+        </span>
       </div>
     </Link>
   );
@@ -32,7 +35,7 @@ export function ProductCard({ product }: { product: Product }) {
 
 export function ProductGrid({ products }: { products: Product[] }) {
   return (
-    <div className="grid-4">
+    <div className="ledger">
       {products.map((p) => (
         <ProductCard key={p.id} product={p} />
       ))}

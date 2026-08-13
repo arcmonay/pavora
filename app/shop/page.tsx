@@ -6,7 +6,7 @@ import { filterProducts } from "@/lib/search";
 
 type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
 
-export const metadata = { title: "Shop machinery" };
+export const metadata = { title: "Yard list" };
 
 export default async function ShopPage({ searchParams }: Props) {
   const sp = await searchParams;
@@ -29,10 +29,10 @@ export default async function ShopPage({ searchParams }: Props) {
         <ShopFilters collections={getCollections()} />
       </Suspense>
       <div className="section" style={{ paddingTop: "1.5rem" }}>
-        <p className="kicker">Yard</p>
-        <h1 className="display text-4xl mb-2">Machinery</h1>
+        <p className="kicker">Receiving list</p>
+        <h1 className="display text-4xl mb-2">Machinery yard</h1>
         <p className="lede mb-8">
-          {products.length} machines. Each listing uses a catalog photo of that unit. Search “laser cleaner”, “planetary grinder”, “blast pot”.
+          {products.length} line items. Each row uses a catalog photo of that unit. Search “laser cleaner”, “planetary grinder”, “blast pot”.
         </p>
         <ProductGrid products={products} />
       </div>

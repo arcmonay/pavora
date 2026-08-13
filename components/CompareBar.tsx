@@ -12,13 +12,13 @@ export function CompareBar() {
   return (
     <div className="compare-bar">
       <span>
-        Compare ({handles.length}/3): {names.join(" · ")}
+        Compare sheet ({handles.length}/3): {names.join(" · ")}
       </span>
       <span className="cta-row" style={{ margin: 0 }}>
-        <Link href="/compare" className="btn btn-signal">
+        <Link href="/compare" className="btn btn-amber">
           Open comparison
         </Link>
-        <button type="button" className="btn btn-ghost light" onClick={clear}>
+        <button type="button" className="btn btn-outline" onClick={clear}>
           Clear
         </button>
       </span>
